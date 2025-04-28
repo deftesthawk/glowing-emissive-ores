@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glowing Emissive Ores</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --fg: #e0e0e0;
+      --card: #1e1e1e;
+      --border: #2c2c2c;
+      --highlight: #3a3a3a;
+      --accent: #e0e0e0;
+      --link: #4fc3f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 2rem;
+      background: var(--bg); color: var(--fg);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+      max-width: 700px; margin: 0 auto;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    h1 { margin-bottom: 1.5rem; }
+
+    .filter-container {
+      width: 85%;
+      background: var(--card);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .filter-group {
+      display: flex; flex-wrap: wrap;
+      gap: 1rem; justify-content: center; width: 100%;
+    }
+    .filter-group label {
+      display: flex; flex-direction: column;
+      align-items: center;
+      flex: 1 1 200px;
+    }
+    select {
+      margin-top: 0.5rem; padding: 0.5rem;
+      background: var(--card); color: var(--fg);
+      border: 1px solid var(--border); border-radius: 6px;
+      width: 90%;
+      cursor: pointer;
+      transition: background 0.3s ease, border-color 0.3s ease;
+    }
+    select:focus {
+      outline: none; border-color: var(--accent);
+      background: var(--highlight);
+    }
+
+    .info-box {
+      width: 100%;
+      background-color: #2c2c2c;
+      color: #ffcc00;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 6px solid #ffcc00;
+      border-right: 6px solid #ffcc00;
+      border-radius: 6px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+
+    .result-box {
+      width: 100%;
+      background: var(--card);
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      margin-top: 1rem;
+      display: none;
+    }
+
+    .result-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    #results-container {
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>
+      <a href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores" target="_blank" style="color: var(--accent); text-decoration: none;">
+        Glowing Emissive Ores
+      </a>
+    </h1>
+
+    <!-- Filter Container -->
+    <div class="filter-container">
+      <div class="filter-group">
+        <label for="modLoader">
+          Mod Loader:
+          <select id="modLoader">
+            <option value="fabric">Fabric</option>
+            <option value="forge">Forge</option>
+            <option value="neoforge">NeoForge</option>
+          </select>
+        </label>
+
+        <label for="minecraftVersion">
+          Minecraft Version:
+          <select id="minecraftVersion">
+            <!-- Options will be populated by script -->
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Results Container -->
+    <div id="results-container">
+      <!-- Predefined results based on conditions -->
+      <div class="info-box">
+        ⚠️ Only install the requirements from <span style="text-decoration: underline;">ONE</span> option
+      </div>
+      
+      <div class="result-box" id="continuityFabricResult">
+        <h3>Option: Continuity (Fabric) (1.18.2 to 1.21.4)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/continuity" target="_blank" style="color: var(--link); text-decoration: none;">
+              Continuity
+            </a>
+            – (Only supports Emissive textures on version 1.18.2 or higher)
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/sodium" target="_blank" style="color: var(--link); text-decoration: none;">
+              Sodium
+            </a>
+            - (Not needed but I highly recommend this)
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/indium" target="_blank" style="color: var(--link); text-decoration: none;">
+              Indium
+            </a>
+            - (Only required if you're using Sodium on versions lower than 1.21.1)
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="continuityForgeResult">
+        <h3>Option: Continuity (Forge) (1.20.1, 1.21 or 1.21.1)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/continuity" target="_blank" style="color: var(--link); text-decoration: none;">
+              Continuity
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector" target="_blank" style="color: var(--link); text-decoration: none;">
+              Sinytra Connector
+            </a>
+            - (Makes Fabric mods work on Forge)
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="continuityNeoForgeResult">
+        <h3>Option: Continuity (NeoForge) (1.21 and 1.21.1)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/continuity" target="_blank" style="color: var(--link); text-decoration: none;">
+              Continuity
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector" target="_blank" style="color: var(--link); text-decoration: none;">
+              Sinytra Connector
+            </a>
+            - (Makes Fabric mods work on NeoForge)
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="moreMCMetaFabricResult">
+        <h3>Option: MoreMCMeta (Fabric) (1.16.5 to 1.21.1)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/moremcmeta-fabric" target="_blank" style="color: var(--link); text-decoration: none;">
+              MoreMCMeta (Fabric)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/moremcmeta-emissive-fabric" target="_blank" style="color: var(--link); text-decoration: none;">
+              MoreMCMeta Emissive Textures (Fabric)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="moreMCMetaForgeResult">
+        <h3>Option: MoreMCMeta (Forge) (1.16.5 to 1.21.1)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/moremcmeta" target="_blank" style="color: var(--link); text-decoration: none;">
+              MoreMCMeta (Forge)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/moremcmeta-emissive-forge" target="_blank" style="color: var(--link); text-decoration: none;">
+              MoreMCMeta Emissive Textures (Forge)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="connectednessForgeResult">
+        <h3>Option: Connectedness (Forge) (1.18.2 or 1.19.2)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/connectedness" target="_blank" style="color: var(--link); text-decoration: none;">
+              Connectedness
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/rubidium" target="_blank" style="color: var(--link); text-decoration: none;">
+              Rubidium
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="fusionFabricResult">
+        <h3>Option: Fusion (Fabric) (1.18 to 1.21.5)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores-fusion" target="_blank" style="color: var(--link); text-decoration: none;">
+              Glowing Emissive Ores - Fusion
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures" target="_blank" style="color: var(--link); text-decoration: none;">
+              Fusion (Connected Textures)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="fusionForgeResult">
+        <h3>Option: Fusion (Forge) (1.12 to 1.12.2 + 1.14 to 1.21.5)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores-fusion" target="_blank" style="color: var(--link); text-decoration: none;">
+              Glowing Emissive Ores - Fusion
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures" target="_blank" style="color: var(--link); text-decoration: none;">
+              Fusion (Connected Textures)
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="fusionNeoForgeResult">
+        <h3>Option: Fusion (NeoForge) (1.20.3 to 1.21.5)</h3>
+        <ul>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores-fusion" target="_blank" style="color: var(--link); text-decoration: none;">
+              Glowing Emissive Ores - Fusion
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures" target="_blank" style="color: var(--link); text-decoration: none;">
+              Fusion (Connected Textures)
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="result-box" id="optifineFabricResult">
+        <h3>Option: Optifine (Fabric) (1.14.2 to 1.20.4)</h3>
+        <ul>
+          <li>
+            <a href="https://optifine.net/downloads" target="_blank" style="color: var(--link); text-decoration: none;">
+              Optifine
+            </a>
+          </li>
+          <li>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/optifabric" target="_blank" style="color: var(--link); text-decoration: none;">
+              OptiFabric
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="optifineForgeResult">
+        <h3>Option: Optifine (Forge) (1.12 to 1.21.4)</h3>
+        <ul>
+          <li>
+            <a href="https://optifine.net/downloads" target="_blank" style="color: var(--link); text-decoration: none;">
+              Optifine
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="result-box" id="noFabricResult">
+        <h3>No options available</h3>
+      </div>
+
+      <div class="result-box" id="noForgeResult">
+        <h3>No options available</h3>
+      </div>
+
+      <div class="result-box" id="noNeoForgeResult">
+        <h3>No options available</h3>
+      </div>
+
+      <!-- Add more results here -->
+    </div>
+  </div>
+
+  <script>
+    // === Predefined Minecraft Versions ===
+    const minecraftVersions = [
+      "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", 
+      "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20", 
+      "1.19.4", "1.19.3", "1.19.2", "1.19.1", "1.19", 
+      "1.18.2", "1.18.1", "1.18", 
+      "1.17.1", "1.17", 
+      "1.16.5", "1.16.4", "1.16.3", "1.16.2", "1.16.1", "1.16", 
+      "1.15.2", "1.15.1", "1.15", 
+      "1.14.4", "1.14.3", "1.14.2", "1.14.1", "1.14", 
+      "1.13.2", "1.13.1", "1.13", 
+      "1.12.2", "1.12.1", "1.12"
+    ];
+
+    // Result definitions
+    const resultConditions = [
+      {
+        id: 'continuityFabricResult',
+        loader: 'fabric',
+        versions: [
+          '1.21.4', '1.21.3', '1.21.1', '1.21',
+          '1.20.6', '1.20.5', '1.20.4', '1.20.3', '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'continuityForgeResult',
+        loader: 'forge',
+        versions: [
+          '1.21.1', '1.21',
+          '1.20.1',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'continuityNeoForgeResult',
+        loader: 'neoforge',
+        versions: [
+          '1.21.1', '1.21',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'moreMCMetaFabricResult',
+        loader: 'fabric',
+        versions: [
+          '1.21.1', '1.21',
+          '1.20.6', '1.20.4', '1.20.2', '1.20.1',
+          '1.19.4', '1.19.2',
+          '1.17.1',
+          '1.16.5',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'moreMCMetaForgeResult',
+        loader: 'forge',
+        versions: [
+          '1.21.1', '1.21',
+          '1.20.6', '1.20.4', '1.20.2', '1.20.1',
+          '1.19.4', '1.19.2',
+          '1.17.1',
+          '1.16.5',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'connectednessForgeResult',
+        loader: 'forge',
+        versions: [
+          '1.19.2',
+          '1.18.2',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'fusionFabricResult',
+        loader: 'fabric',
+        versions: [
+          '1.21.5', '1.21.4', '1.21.3', '1.21.2', '1.21.1', '1.21',
+          '1.20.6', '1.20.5', '1.20.4', '1.20.3', '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2', '1.18.1', '1.18',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'fusionForgeResult',
+        loader: 'forge',
+        versions: [
+          '1.21.5', '1.21.4', '1.21.3', '1.21.2', '1.21.1', '1.21',
+          '1.20.6', '1.20.5', '1.20.4', '1.20.3', '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2', '1.18.1', '1.18',
+          '1.17.1', '1.17',
+          '1.16.5', '1.16.4', '1.16.3', '1.16.2', '1.16.1', '1.16',
+          '1.15.2', '1.15.1', '1.15',
+          '1.14.4', '1.14.3', '1.14.2', '1.14.1', '1.14',
+          '1.12.2', '1.12.1', '1.12'
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'fusionNeoForgeResult',
+        loader: 'neoforge',
+        versions: [
+          '1.21.5', '1.21.4', '1.21.3', '1.21.2', '1.21.1', '1.21',
+          '1.20.6', '1.20.5', '1.20.4', '1.20.3',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'optifineFabricResult',
+        loader: 'fabric',
+        versions: [
+          '1.20.4', '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2', '1.18.1', '1.18',
+          '1.17.1', '1.17',
+          '1.16.5', '1.16.4', '1.16.3', '1.16.2', '1.16.1',
+          '1.15.2',
+          '1.14.4', '1.14.3', '1.14.2',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'optifineForgeResult',
+        loader: 'forge',
+        versions: [
+          '1.21.4', '1.21.3', '1.21.1', '1.21',
+          '1.20.6', '1.20.4', '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2', '1.18.1', '1.18',
+          '1.17.1', '1.17',
+          '1.16.5', '1.16.4', '1.16.3', '1.16.2', '1.16.1',
+          '1.15.2',
+          '1.14.4', '1.14.3', '1.14.2',
+          '1.13.2', '1.13.1', '1.13',
+          '1.12.2', '1.12.1', '1.12',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'noFabricResult',
+        loader: 'fabric',
+        versions: [
+          '1.16',
+          '1.15.1', '1.15',
+          '1.14.1', '1.14',
+          '1.13.2', '1.13.1', '1.13',
+          '1.12.2', '1.12.1', '1.12',
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'noForgeResult',
+        loader: 'forge',
+        versions: [
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      {
+        id: 'noNeoForgeResult',
+        loader: 'neoforge',
+        versions: [
+          '1.20.2', '1.20.1', '1.20',
+          '1.19.4', '1.19.3', '1.19.2', '1.19.1', '1.19',
+          '1.18.2', '1.18.1', '1.18',
+          '1.17.1', '1.17',
+          '1.16.5', '1.16.4', '1.16.3', '1.16.2', '1.16.1', '1.16',
+          '1.15.2', '1.15.1', '1.15',
+          '1.14.4', '1.14.3', '1.14.2', '1.14.1', '1.14',
+          '1.13.2', '1.13.1', '1.13',
+          '1.12.2', '1.12.1', '1.12'
+        ],
+        show: function (version) {
+          return this.versions.includes(version);
+        }
+      },
+      // Add more result conditions here as needed
+    ];
+
+    const modLoaderSelect = document.getElementById('modLoader');
+    const minecraftVersionSelect = document.getElementById('minecraftVersion');
+    const resultsContainer = document.getElementById('results-container');
+
+    // Initialize Minecraft Version dropdown
+    function updateMinecraftVersionOptions() {
+      minecraftVersionSelect.innerHTML = "";
+      minecraftVersions.forEach(version => {
+        const option = document.createElement('option');
+        option.value = version;
+        option.textContent = version;
+        minecraftVersionSelect.appendChild(option);
+      });
+    }
+
+    // Filter and display the results based on selected loader and version
+    function filterResults() {
+      const selectedLoader = modLoaderSelect.value;
+      const selectedVersion = minecraftVersionSelect.value;
+
+      resultConditions.forEach(result => {
+        const resultBox = document.getElementById(result.id);
+        if (
+          (selectedLoader === "" || result.loader === selectedLoader) &&
+          result.show(selectedVersion)
+        ) {
+          resultBox.style.display = 'block'; // Show the result box
+        } else {
+          resultBox.style.display = 'none'; // Hide the result box
+        }
+      });
+    }
+
+    // Event listeners for dropdown changes
+    modLoaderSelect.addEventListener('change', filterResults);
+    minecraftVersionSelect.addEventListener('change', filterResults);
+
+    // Initialize page
+    updateMinecraftVersionOptions();
+    filterResults(); // Initial filter on page load
+  </script>
+
+</body>
+</html>
