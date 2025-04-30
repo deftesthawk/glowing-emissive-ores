@@ -9,6 +9,9 @@
   --link: #4fc3f7;
 }
 * { box-sizing: border-box; }
+body::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
 body {
   color: var(--text-color);
   background-image: url('assets/background.png');  /* bottom layer */
