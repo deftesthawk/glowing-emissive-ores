@@ -11,12 +11,13 @@ trackableButtons.forEach(({ id, label }) => {
     if (btn) {
         btn.addEventListener("click", () => {
             gtag("event", "click", {
+                send_to: "G-E5VX8C2PE4",
                 event_category: "Navigation",
                 event_label: label
             });
         });
     }
-});  
+});
 
 // Function to switch between tabs
 function switchTab(event, tabName) {
