@@ -13,7 +13,6 @@ body {
   color: var(--text-color);
   background-image: url('assets/background.png');  /* bottom layer */
   background-size: 1000px auto;
-  background: var(--bg); color: var(--fg);
   margin: 0; padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
