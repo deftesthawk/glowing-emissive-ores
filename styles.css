@@ -14,6 +14,7 @@ body::-webkit-scrollbar {
 }
 body {
   color: var(--text-color);
+  background-color: var(--bg);
   background-image: url('assets/background.png');  /* bottom layer */
   background-size: 1000px auto;
   margin: 0; padding: 0.5rem;
