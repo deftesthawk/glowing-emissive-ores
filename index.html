@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5VX8C2PE4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E5VX8C2PE4');
+  </script>
+  <link rel="stylesheet" href="styles.css?v=3">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -17,9 +26,9 @@
     
     <!-- Tab Navigation -->
     <div class="tabs">
-      <button class="tab-link active" onclick="switchTab(event, 'requirements')">Requirements</button>
-      <button class="tab-link" onclick="switchTab(event, 'supported')">Supported</button>
-      <button class="tab-link" onclick="switchTab(event, 'help')">Help</button>
+      <button class="tab-link active" id="tab-requirements" onclick="switchTab(event, 'requirements')">Requirements</button>
+      <button class="tab-link" id="tab-supported" onclick="switchTab(event, 'supported')">Supported</button>
+      <button class="tab-link" id="tab-help" onclick="switchTab(event, 'help')">Help</button>
     </div>
 
     <!-- Tabs Content -->
