@@ -16,7 +16,7 @@ body {
   color: var(--text-color);
   background-image: url('assets/background.png');  /* bottom layer */
   background-size: 1000px auto;
-  margin: 0; padding: 2rem;
+  margin: 0; padding: 0.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
@@ -33,6 +33,7 @@ h1 { margin-bottom: 1.5rem; }
 }
 
 .tab-link {
+  font-size: 20px;
   padding: 1rem 2rem;
   background: var(--card);
   color: var(--fg);
@@ -42,7 +43,7 @@ h1 { margin-bottom: 1.5rem; }
   font-weight: bold;
   transition: background 0.3s ease;
   width: 100%; /* Set to a fixed width of 33% */
-  min-width: 160px; /* Optional: ensure they don't get too small */
+  min-width: 200px; /* Optional: ensure they don't get too small */
 }
 
 .tab-link.active {
@@ -91,6 +92,9 @@ h1 { margin-bottom: 1.5rem; }
 #view-toggle .active-view {
   background-color: #3a3a3a;
   color: white;
+}
+#view-toggle .button-font-size {
+  font-size: 16px;
 }
 
 .requirement-options {
