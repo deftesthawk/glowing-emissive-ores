@@ -77,6 +77,7 @@ h1 { margin-bottom: 1.5rem; }
 }
 
 #view-toggle button {
+  font-size: 16px;
   padding: 0.5rem 1rem;
   margin-right: 0.5rem;
   border: none;
@@ -93,9 +94,6 @@ h1 { margin-bottom: 1.5rem; }
 #view-toggle .active-view {
   background-color: #3a3a3a;
   color: white;
-}
-#view-toggle .button-font-size {
-  font-size: 16px;
 }
 
 .requirement-options {
