@@ -1,3 +1,23 @@
+const trackableButtons = [
+    { id: "tab-requirements", label: "Requirements Tab" },
+    { id: "tab-supported", label: "Supported Tab" },
+    { id: "tab-help", label: "Help Tab" },
+    { id: "fullListBtn", label: "All Options Button" },
+    { id: "filteredBtn", label: "Filter by Version Button" }
+];
+  
+trackableButtons.forEach(({ id, label }) => {
+    const btn = document.getElementById(id);
+    if (btn) {
+        btn.addEventListener("click", () => {
+            gtag("event", "click", {
+                event_category: "Navigation",
+                event_label: label
+            });
+        });
+    }
+});  
+
 // Function to switch between tabs
 function switchTab(event, tabName) {
     // Hide all tab contents
