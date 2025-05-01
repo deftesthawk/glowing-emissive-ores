@@ -4,7 +4,8 @@
   --fg: #e0e0e0;
   --card: #1e1e1e;
   --border: #2c2c2c;
-  --highlight: #3a3a3a;
+  --selected: #3a3a3a;
+  --highlight: #5c5c5c;
   --accent: #e0e0e0;
   --link: #4fc3f7;
 }
@@ -22,7 +23,15 @@ body {
   max-width: 700px; margin: 0 auto;
   display: flex; flex-direction: column; align-items: center;
 }
+
 h1 { margin-bottom: 1.5rem; }
+.logo {
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Increase size by 10% */
+}
 
 /* Tabs */
 .tabs {
@@ -46,7 +55,7 @@ h1 { margin-bottom: 1.5rem; }
 }
 
 .tab-link.active {
-  background: var(--highlight);
+  background: var(--selected);
 }
 
 .tab-link:hover {
@@ -87,10 +96,17 @@ h1 { margin-bottom: 1.5rem; }
   width: 100%;
   min-width: 160px;
   text-align: center;
+  transition: all 0.2s ease;
+}
+
+#view-toggle button:hover {
+  background-color: var(--highlight); /* Light blue highlight */
+  box-shadow: 0 0 0px rgba(59, 130, 246, 0.5); /* Blue glow */
+  transform: scale(1.03); /* Slight zoom on hover */
 }
 
 #view-toggle .active-view {
-  background-color: #3a3a3a;
+  background-color: var(--selected);
   color: white;
 }
 
@@ -116,6 +132,19 @@ h1 { margin-bottom: 1.5rem; }
   margin-left: 20px; /* Indent the list to visually show it's nested */
 }
 
+/* ############################################################################################################ */
+@keyframes flash {
+  0%, 100% {
+    background-color: #1e1e1e;
+  }
+  50% {
+    background-color: #00aaff;
+  }
+}
+.flash-highlight {
+  animation: flash 1.5s ease-in-out 0;
+  color: white;
+}
 
 /* Filter */
 .filter-container {
