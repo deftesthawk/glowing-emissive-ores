@@ -18,7 +18,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-W3SLRGWF');</script>
   <!-- End Google Tag Manager -->
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">   <!-- ####################################################################### -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -32,9 +32,9 @@
   <div class="container">
     <h1>
       <a href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores">
-        <img src="assets/logo.png" alt="My Page Title" style="height: 200px;">
+        <img src="assets/logo.png" alt="My Page Title" style="height: 200px;" class="logo">
       </a>
-    </h1>
+    </h1>    
     
     <!-- Tab Navigation -->
     <div class="tabs">
@@ -48,7 +48,7 @@
       
       <div id="view-toggle" style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 0.5rem;">
         <button id="fullListBtn" onclick="showFullList()" class="active-view">📋 All Options</button>
-        <button id="filteredBtn" onclick="showFiltered()">🎯 Filter by Version</button>
+        <button id="filteredBtn" onclick="showFiltered()" class="flash-highlight">🎯 Filter by Modloader / Version</button>
       </div>      
       
       <div id="fullRequirementsView" class="full-requirements">
@@ -259,14 +259,14 @@
       </div>
       
       <div id="filteredRequirementsView" style="display: none;">
-        <!-- Your existing mod loader and version selectors go here -->
+        <!-- Your existing modloader and version selectors go here -->
         <!-- Your dynamic result injection also goes here -->
       
         <!-- Filter Container -->
         <div class="filter-container">
           <div class="filter-group">
             <label for="modLoader">
-              Mod Loader:
+              Modloader:
               <select id="modLoader">
                 <option value="fabric">Fabric</option>
                 <option value="forge">Forge</option>
@@ -1371,7 +1371,7 @@
     <div id="help" class="tab-content">
       <div class="help-tab">
         <h2>Instructions</h2>
-        <p>There are currently 4 Minecraft mod loaders: NeoForge, Forge, Fabric, and Quilt. You will need to install different requirements depending on which mod loader you are using. I have listed all the possible combinations you can use for each mod loader in the requirements tab.</p>
+        <p>There are currently 4 Minecraft Modloaders: NeoForge, Forge, Fabric, and Quilt. You will need to install different requirements depending on which Modloader you are using. I have listed all the possible combinations you can use for each Modloader in the requirements tab.</p>
       
         <h3>Confused? Here's an example:</h3>
         <p>I plan on playing a Forge modpack: First, I install "Glowing Emissive Ores", then test if it works (some packs come pre-installed with the requirements). If it doesn't work, then come back to this site and select the requirements tab. Next, I will choose either Option 1, 2, 3, or 4 depending on the version of Minecraft I am playing on. If I choose option 1, I will need to install both "MoreMCMeta (Forge)" and "MoreMCMeta Emissive Textures (Forge)". Finally, I will load the modpack up again and test it. For most modpacks, this should work.</p>
