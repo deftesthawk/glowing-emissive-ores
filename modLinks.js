@@ -761,10 +761,16 @@ const ModLinks = {
 };
 // Get URL parameters
 const params = new URLSearchParams(window.location.search);
-const platform = params.get('platform');
+let platform = params.get('platform');
 
-// Fallback to CurseForge if no platform given
-const preferredPlatform = (platform === 'modrinth') ? 'Modrinth' : 'CurseForge';
+// Fallback logic if no platform is specified or if the platform is invalid
+if (!platform || (platform !== 'modrinth' && platform !== 'curseforge')) {
+  // Show the platform selection modal
+  showPlatformSelectionModal();
+} else {
+  const preferredPlatform = (platform === 'modrinth') ? 'Modrinth' : 'CurseForge';
+  updateLinks(preferredPlatform);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll('a[data-mod]').forEach(link => {
@@ -773,7 +779,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!modInfo) return;
 
-    const href = modInfo[preferredPlatform] || modInfo.CurseForge || modInfo.Modrinth;
+    const href = modInfo[platform === 'modrinth' ? 'Modrinth' : 'CurseForge'] || modInfo.CurseForge || modInfo.Modrinth;
 
     if (href) {
       link.href = href;
@@ -799,7 +805,36 @@ function updateLinks(selectedPlatform) {
     }
   });
 }
+
+// Event listener for the platform selector
 platformSelector.addEventListener("change", () => {
-  updateLinks(platformSelector.value);
+  const selectedPlatform = platformSelector.value.toLowerCase();
+  updateLinks(selectedPlatform);
+  window.location.search = `?platform=${selectedPlatform}`;
 });
-updateLinks(platformSelector.value);
+
+// Function to show platform selection modal
+function showPlatformSelectionModal() {
+  // You can style this modal as you want, here’s a simple example:
+  const modal = document.createElement('div');
+  modal.classList.add('platform-modal');
+  modal.innerHTML = `
+    <div class="modal-content">
+      <h2>Select a Platform</h2>
+      <p>Links will be directed to the selected platform, depending on availability.</p>
+      <button id="curseforge-btn">CurseForge</button>
+      <button id="modrinth-btn">Modrinth</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  // Event listeners for platform selection
+  document.getElementById('curseforge-btn').addEventListener('click', () => {
+    window.location.search = '?platform=curseforge';
+    modal.remove(); // Close the modal
+  });
+  document.getElementById('modrinth-btn').addEventListener('click', () => {
+    window.location.search = '?platform=modrinth';
+    modal.remove(); // Close the modal
+  });
+}
