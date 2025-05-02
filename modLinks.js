@@ -759,3 +759,47 @@ const ModLinks = {
     Modrinth: null
     }
 };
+// Get URL parameters
+const params = new URLSearchParams(window.location.search);
+const platform = params.get('platform');
+
+// Fallback to CurseForge if no platform given
+const preferredPlatform = (platform === 'modrinth') ? 'Modrinth' : 'CurseForge';
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('a[data-mod]').forEach(link => {
+    const modName = link.getAttribute('data-mod');
+    const modInfo = ModLinks[modName];
+
+    if (!modInfo) return;
+
+    const href = modInfo[preferredPlatform] || modInfo.CurseForge || modInfo.Modrinth;
+
+    if (href) {
+      link.href = href;
+    } else {
+      link.style.pointerEvents = 'none';
+      link.style.opacity = '0.5';
+      link.textContent += " (Unavailable)";
+    }
+  });
+});
+
+// Platform dependant links
+const platformSelector = document.getElementById("platformSelector");
+function updateLinks(selectedPlatform) {
+  const links = document.querySelectorAll("a[data-mod]");
+
+  links.forEach(link => {
+    const modName = link.getAttribute("data-mod");
+    const mod = ModLinks[modName];
+
+    if (mod) {
+      link.href = mod[selectedPlatform] || mod.CurseForge || "#";
+    }
+  });
+}
+platformSelector.addEventListener("change", () => {
+  updateLinks(platformSelector.value);
+});
+updateLinks(platformSelector.value);
