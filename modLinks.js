@@ -146,6 +146,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/bronze-mod",
     Modrinth: "https://modrinth.com/mod/bronze"
     },
+    "Butchery": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/butchery",
+    Modrinth: "https://modrinth.com/mod/butchery"
+    },
     "Call of Yucután": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/call-of-yucutan",
     Modrinth: "https://modrinth.com/mod/call-of-yucutan"
