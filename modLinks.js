@@ -754,6 +754,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/werewolves-become-a-beast",
     Modrinth: "https://modrinth.com/mod/werewolves"
     },
+    "Wizard's Reborn": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wizards-reborn",
+    Modrinth: "https://modrinth.com/mod/wizards-reborn"
+    },
     "Yet Just Another Silver": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/yetjustanothersilver",
     Modrinth: "https://modrinth.com/mod/yetjustanothersilver"
