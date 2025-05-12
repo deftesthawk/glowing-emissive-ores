@@ -286,6 +286,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-fabric",
     Modrinth: "https://modrinth.com/mod/enderite-mod"
     },
+    "Enderscape": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enderscape",
+    Modrinth: "https://modrinth.com/mod/enderscape"
+    },
     "Enlightend": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enlightend",
     Modrinth: "https://modrinth.com/mod/enlightend"
