@@ -502,6 +502,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/netherific",
     Modrinth: null
     },
+    "NuclearCraft: Neoteric": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-neoteric",
+    Modrinth: "https://modrinth.com/mod/nuclearcraft-neoteric"
+    },
     "Occultism": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/occultism",
     Modrinth: "https://modrinth.com/mod/occultism"
