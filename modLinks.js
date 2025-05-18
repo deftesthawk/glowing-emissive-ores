@@ -174,6 +174,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemon",
     Modrinth: "https://modrinth.com/mod/cobblemon"
     },
+    "CobGyms - Unofficial Cobblemon Gyms": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobgyms",
+    Modrinth: "https://modrinth.com/mod/cobgyms"
+    },
     "Confluence: Otherworld": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/confluence",
     Modrinth: "https://modrinth.com/mod/confluence"
@@ -622,6 +626,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/scorched-guns-brass",
     Modrinth: "https://modrinth.com/mod/scorched-guns-brass"
     },
+    "SCP: Overtime": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/scp-overtime",
+    Modrinth: "https://modrinth.com/mod/scp-overtime"
+    },
     "Silent Gear": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/silent-gear",
     Modrinth: "https://modrinth.com/mod/silent-gear"
@@ -697,6 +705,10 @@ const ModLinks = {
     "The Age of Ores (Crystalcraft Unlimited Java edition)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-age-of-ores-crystalcraft-unlimited-java",
     Modrinth: "https://modrinth.com/mod/crystalcraft-unlimited"
+    },
+    "The Box of Horrors": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/box-of-horrors",
+    Modrinth: "https://modrinth.com/mod/the-box-of-horrors"
     },
     "The Indigo": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-indigo",
