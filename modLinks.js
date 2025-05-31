@@ -690,6 +690,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/techreborn",
     Modrinth: null
     },
+    "Tensura: Reincarnated": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tensura-reincarnated",
+    Modrinth: "https://modrinth.com/mod/tensura-reincarnated"
+    },
     "Terramity": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/terramity",
     Modrinth: "https://modrinth.com/mod/terramity"
@@ -730,6 +734,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-undergarden",
     Modrinth: "https://modrinth.com/mod/the-undergarden"
     },
+    "The Vault Mod (Standalone)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/vault-hunters-official-mod",
+    Modrinth: null
+    },
     "Thermal Foundation": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation",
     Modrinth: "https://modrinth.com/mod/thermal-foundation"
@@ -737,6 +745,10 @@ const ModLinks = {
     "Theurgy": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/theurgy",
     Modrinth: "https://modrinth.com/mod/theurgy"
+    },
+    "Things": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/things-fabric",
+    Modrinth: "https://modrinth.com/mod/things"
     },
     "Tierify Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tierify-ores",
