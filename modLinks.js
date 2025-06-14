@@ -310,6 +310,10 @@ const ModLinks = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/evilcraft",
     Modrinth: "https://modrinth.com/mod/evilcraft"
     },
+    "Exp Ore": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/exp-ore",
+    Modrinth: "https://modrinth.com/mod/exp-ore"
+    },
     "Expanded Delight": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/expanded-delight",
     Modrinth: "https://modrinth.com/mod/expanded-delight"
