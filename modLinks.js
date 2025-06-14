@@ -65,6 +65,8 @@ const ModLinks = {
       CurseForge: "https://www.curseforge.com/minecraft/mc-mods/optifabric",
       Modrinth: null
     },
+};
+const SupportedMods = {
     // Supported ######################################################################################################
     "Actually Additions": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/actually-additions",
@@ -803,6 +805,41 @@ const ModLinks = {
     Modrinth: null
     }
 };
+
+function generateSupportedModList(selectedPlatform) {
+  const ul = document.querySelector("#supported .spoiler ul");
+  if (!ul) return;
+
+  ul.innerHTML = "";
+
+  // Static 'Vanilla' entry
+  const vanillaLi = document.createElement("li");
+  vanillaLi.textContent = "Vanilla";
+  ul.appendChild(vanillaLi);
+
+  for (const modName in SupportedMods) {
+    const mod = SupportedMods[modName];
+    const link = mod[selectedPlatform] || mod.CurseForge || mod.Modrinth;
+
+    const li = document.createElement("li");
+
+    if (link) {
+      const a = document.createElement("a");
+      a.href = link;
+      a.target = "_blank";
+      a.textContent = modName;
+      a.setAttribute("data-mod", modName);
+      a.style.color = "var(--link)";
+      a.style.textDecoration = "none";
+      li.appendChild(a);
+    } else {
+      li.textContent = `${modName} (No link available)`;
+    }
+
+    ul.appendChild(li);
+  }
+}
+
 // Get URL parameters
 const params = new URLSearchParams(window.location.search);
 let platform = params.get('platform');
@@ -814,6 +851,7 @@ if (!platform || (platform !== 'modrinth' && platform !== 'curseforge')) {
 } else {
   const preferredPlatform = (platform === 'modrinth') ? 'Modrinth' : 'CurseForge';
   updateLinks(preferredPlatform);
+  generateSupportedModList(preferredPlatform);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -854,8 +892,10 @@ function updateLinks(selectedPlatform) {
 platformSelector.addEventListener("change", () => {
   const selectedPlatform = platformSelector.value.toLowerCase();
   updateLinks(selectedPlatform);
+  generateSupportedModList(selectedPlatform);
   window.location.search = `?platform=${selectedPlatform}`;
 });
+
 
 // Function to show platform selection modal
 function showPlatformSelectionModal() {
