@@ -424,6 +424,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/luckytnt",
     Modrinth: "https://modrinth.com/mod/lucky-tnt-mod"
     },
+    "Macabre - Call of False Prophets": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/macabre",
+    Modrinth: null
+    },
     "Maiden's Marvelous Materials": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/maidens-marvelous-materials",
     Modrinth: null
@@ -439,6 +443,10 @@ const SupportedMods = {
     "Many More Ores and Crafts": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/many-more-ores-and-crafts",
     Modrinth: "https://modrinth.com/mod/many-more-ores-and-crafts"
+    },
+    "Marium's Soulslike Weaponry": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry",
+    Modrinth: "https://modrinth.com/mod/mariums-soulslike-weaponry"
     },
     "MC-Extended: Vanilla+": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mc-extended-vanilla-plus",
