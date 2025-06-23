@@ -168,6 +168,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cinderscapes",
     Modrinth: "https://modrinth.com/mod/cinderscapes"
     },
+    "Clustore": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clustore",
+    Modrinth: null
+    },
     "Clutter": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clutter",
     Modrinth: "https://modrinth.com/mod/clutter"
@@ -479,6 +483,10 @@ const SupportedMods = {
     "More Metals II": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/more-metals-ii",
     Modrinth: null
+    },
+    "More Ores More Gems (Java Edition)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/more-ores-more-gems",
+    Modrinth: "https://modrinth.com/mod/more-ores-more-gem"
     },
     "mOres Reloaded": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mores-reloaded-forge",
