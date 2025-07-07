@@ -524,6 +524,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nether-ores-plus",
     Modrinth: null
     },
+    "NetherEx": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/netherex",
+    Modrinth: "https://modrinth.com/mod/netherex"
+    },
     "Netherific": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/netherific",
     Modrinth: null
@@ -631,6 +635,10 @@ const SupportedMods = {
     "RFTools Base": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rftools-base",
     Modrinth: "https://modrinth.com/mod/rftools-base"
+    },
+    "Riordan Craft (Percy Jackson)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/riordan-craft",
+    Modrinth: null
     },
     "Sacred Ore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sacred-ore",
