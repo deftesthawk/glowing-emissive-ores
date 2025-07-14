@@ -728,6 +728,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/terramity",
     Modrinth: "https://modrinth.com/mod/terramity"
     },
+    "TheElementGuy's More Metals and Ores": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/theelementguys-more-metals",
+    Modrinth: "https://modrinth.com/mod/theelementguys-more-metals"
+    },
     "The Aether": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aether",
     Modrinth: "https://modrinth.com/mod/aether"
@@ -807,6 +811,10 @@ const SupportedMods = {
     "Voidscape": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/voidscape",
     Modrinth: null
+    },
+    "Warium": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/warium",
+    Modrinth: "https://modrinth.com/mod/warium"
     },
     "Warriors of Past Epoch": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/warriors-of-past-epoch",
