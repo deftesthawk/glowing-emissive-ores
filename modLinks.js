@@ -396,6 +396,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/immersive-ores",
     Modrinth: "https://modrinth.com/mod/immersive-ores"
     },
+    "Industrial Upgrade": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/industrial-upgrade",
+    Modrinth: "https://modrinth.com/mod/industrialupgrade"
+    },
     "Iron's Spells 'n Spellbooks": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
     Modrinth: "https://modrinth.com/mod/irons-spells-n-spellbooks"
@@ -703,6 +707,10 @@ const SupportedMods = {
     "Spelunkery": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunkery",
     Modrinth: "https://modrinth.com/mod/spelunkery"
+    },
+    "Spelunking Master": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunking-master",
+    Modrinth: null
     },
     "Stargate Journey": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sgjourney",
