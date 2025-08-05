@@ -420,9 +420,17 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/just-enough-guns",
     Modrinth: "https://modrinth.com/mod/just-enough-guns"
     },
+    "Just-In NETHER": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/just-in-nether",
+    Modrinth: "https://modrinth.com/mod/just-in-nether"
+    },
     "Laudividni's Discs": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/laudividnis-discs",
     Modrinth: null
+    },
+    "Legendary Monsters": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/legendary-monsters",
+    Modrinth: "https://modrinth.com/mod/legendary-monsters"
     },
     "Lifesteal": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/lifesteal-mian",
@@ -439,6 +447,10 @@ const SupportedMods = {
     "Maiden's Marvelous Materials": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/maidens-marvelous-materials",
     Modrinth: null
+    },
+    "Majrusz's Progressive Difficulty": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/majruszs-progressive-difficulty",
+    Modrinth: "https://modrinth.com/mod/majruszs-progressive-difficulty"
     },
     "Malum": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/malum",
