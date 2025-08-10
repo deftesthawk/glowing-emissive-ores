@@ -656,6 +656,14 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/riordan-craft",
     Modrinth: null
     },
+    "Roost 2: Flying Higher": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/roost-2-flying-higher",
+    Modrinth: null
+    },
+    "RPG style More Weapons!": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rpg-style-more-weapons",
+    Modrinth: "https://modrinth.com/mod/rpg_style_more_weapons"
+    },
     "Sacred Ore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sacred-ore",
     Modrinth: "https://modrinth.com/mod/sacred-ore"
@@ -711,6 +719,10 @@ const SupportedMods = {
     "Skay's Overworld Quartz Ore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skays-overworld-quartz-ore",
     Modrinth: null
+    },
+    "Sky Lands": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sky-lands",
+    Modrinth: "https://modrinth.com/mod/sky-lands"
     },
     "Solar Craft": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/solar-forge",
@@ -827,6 +839,10 @@ const SupportedMods = {
     "Universal Ores": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/universal-ores-fabric",
     Modrinth: "https://modrinth.com/mod/universal_ores"
+    },
+    "Vintage Vibes": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/vintage-vibes",
+    Modrinth: "https://modrinth.com/mod/vintage-vibes"
     },
     "Voidscape": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/voidscape",
