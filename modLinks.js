@@ -124,6 +124,10 @@ const SupportedMods = {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/betterend",
     Modrinth: "https://modrinth.com/mod/betterend"
     },
+    "Better End Potato Edition": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/better-end-potato-edition",
+    Modrinth: null
+    },
     "BetterNether": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/betternether",
     Modrinth: "https://modrinth.com/mod/betternether"
@@ -671,6 +675,10 @@ const SupportedMods = {
     "Samurai Dynasty": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/samurai-dynasty",
     Modrinth: "https://modrinth.com/mod/epic-samurais"
+    },
+    "Scaling Health": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/scaling-health",
+    Modrinth: "https://modrinth.com/mod/scaling-health"
     },
     "Scorched Guns": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/scorched-guns",
