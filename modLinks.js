@@ -184,6 +184,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemon",
     Modrinth: "https://modrinth.com/mod/cobblemon"
     },
+    "Cobblemore Lib": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemore-lib",
+    Modrinth: "https://modrinth.com/mod/cobblemore-library"
+    },
     "CobGyms - Unofficial Cobblemon Gyms": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobgyms",
     Modrinth: "https://modrinth.com/mod/cobgyms"
@@ -383,6 +387,10 @@ const SupportedMods = {
     "Gobber [Fabric]": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gobber-fabric",
     Modrinth: null
+    },
+    "Grim & Bleak (semi-Horror)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/grim-bleak",
+    Modrinth: "https://modrinth.com/mod/grim-and-bleak"
     },
     "Ice and Fire: Dragons": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons",
@@ -788,6 +796,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/box-of-horrors",
     Modrinth: "https://modrinth.com/mod/the-box-of-horrors"
     },
+    "The Deep Void": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-deep-void",
+    Modrinth: "https://modrinth.com/mod/(mortius)-the-deep-void"
+    },
     "The Indigo": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-indigo",
     Modrinth: null
@@ -867,6 +879,10 @@ const SupportedMods = {
     "Werewolves - Become a Beast!": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/werewolves-become-a-beast",
     Modrinth: "https://modrinth.com/mod/werewolves"
+    },
+    "Witcher (More RPG Classes)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/witcher-rpg-class",
+    Modrinth: "https://modrinth.com/mod/witcher-rpg-class"
     },
     "Wizard's Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wizards-reborn",
