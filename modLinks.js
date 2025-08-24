@@ -216,6 +216,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-love-war",
     Modrinth: "https://modrinth.com/mod/create-love-war"
     },
+    "Create: New Age": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-new-age",
+    Modrinth: "https://modrinth.com/mod/create-new-age"
+    },
     "Create: Tank Defenses": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses",
     Modrinth: "https://modrinth.com/mod/create-tank-defenses"
@@ -583,6 +587,10 @@ const SupportedMods = {
     "Oreganized": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oreganized",
     Modrinth: "https://modrinth.com/mod/oreganized"
+    },
+    "Ore and more": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oam-by-choupiclou2007",
+    Modrinth: "https://modrinth.com/mod/ore-and-more-+-(oam)"
     },
     "Ores Above Diamonds": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ores-above-diamonds",
