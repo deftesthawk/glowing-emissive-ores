@@ -744,11 +744,11 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-netherite-ore-remined",
     Modrinth: "https://modrinth.com/mod/skys-netherite-ore-remined"
     },
-    "Sky's Overworld Netherite Ore": {
+    "Sky's Overworld Netherite": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-overworld-netherite",
     Modrinth: "https://modrinth.com/mod/skys-overworld-netherite"
     },
-    "Sky's Overworld Quartz Ore": {
+    "Sky's Overworld Quartz": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-overworld-quartz",
     Modrinth: "https://modrinth.com/mod/skys-overworld-quartz"
     },
@@ -1030,3 +1030,4 @@ function showPlatformSelectionModal() {
     modal.remove(); // Close the modal
   });
 }
+
