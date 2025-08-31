@@ -300,6 +300,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/end-reborn-mc",
     Modrinth: "https://modrinth.com/mod/end-reborn"
     },
+    "Enderite CJ Edition": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enderite-cj-edition",
+    Modrinth: "https://modrinth.com/mod/enderite-cj-edition"
+    },
     "Enderite Mod (Forge)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-forge",
     Modrinth: "https://modrinth.com/mod/enderite-mod"
@@ -736,13 +740,17 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/simpleores",
     Modrinth: "https://modrinth.com/mod/simpleores"
     },
-    "Skay's Overworld Netherite Ore": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skays-overworld-netherite-ore",
-    Modrinth: "https://modrinth.com/mod/overworld-netherite-ore"
+    "Sky's Netherite Ore Remined": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-netherite-ore-remined",
+    Modrinth: "https://modrinth.com/mod/skys-netherite-ore-remined"
     },
-    "Skay's Overworld Quartz Ore": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skays-overworld-quartz-ore",
-    Modrinth: null
+    "Sky's Overworld Netherite Ore": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-overworld-netherite",
+    Modrinth: "https://modrinth.com/mod/skys-overworld-netherite"
+    },
+    "Sky's Overworld Quartz Ore": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-overworld-quartz",
+    Modrinth: "https://modrinth.com/mod/skys-overworld-quartz"
     },
     "Sky Lands": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sky-lands",
