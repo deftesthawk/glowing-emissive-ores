@@ -168,6 +168,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/celestisynth",
     Modrinth: null
     },
+    "Chaos Awakens": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/chaos-awakens",
+    Modrinth: "https://modrinth.com/mod/chaos-awakens"
+    },
     "Cinderscapes": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cinderscapes",
     Modrinth: "https://modrinth.com/mod/cinderscapes"
@@ -207,6 +211,10 @@ const SupportedMods = {
     "Create (Fabric)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-fabric",
     Modrinth: "https://modrinth.com/mod/create-fabric"
+    },
+    "Create: Crafts & (More) Additions": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-more-additions",
+    Modrinth: "https://modrinth.com/mod/create-more-additions"
     },
     "Create: Ironworks": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-ironworks",
@@ -904,6 +912,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wizards-reborn",
     Modrinth: "https://modrinth.com/mod/wizards-reborn"
     },
+    "Wyrmroost": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wyrmroost",
+    Modrinth: "https://modrinth.com/mod/wyrmroost"
+    },
     "Yet Just Another Silver": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/yetjustanothersilver",
     Modrinth: "https://modrinth.com/mod/yetjustanothersilver"
@@ -1030,4 +1042,3 @@ function showPlatformSelectionModal() {
     modal.remove(); // Close the modal
   });
 }
-
