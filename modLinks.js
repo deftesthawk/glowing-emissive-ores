@@ -80,6 +80,18 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/advent-of-ascension-nevermine",
         Modrinth: "https://modrinth.com/mod/adventofascension"
     },
+    "Aerial Hell": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aerial-hell",
+        Modrinth: "https://modrinth.com/mod/aerial-hell"
+    },
+    "Aether Addon: Overworld Ores": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aether-overworld-ores",
+        Modrinth: "https://modrinth.com/mod/aether-overworld-ores"
+    },
+    "Aether: Basic Ores": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aether-basic-ores",
+        Modrinth: "https://modrinth.com/mod/aether-basic-ores"
+    },
     "Alex's Caves": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
         Modrinth: "https://modrinth.com/mod/alexs-caves"
@@ -99,10 +111,6 @@ const SupportedMods = {
     "Applied Energistics 2": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
         Modrinth: "https://modrinth.com/mod/ae2"
-    },
-    "Aerial Hell": {
-        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aerial-hell",
-        Modrinth: "https://modrinth.com/mod/aerial-hell"
     },
     "Ars Nouveau": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau",
@@ -224,6 +232,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-love-war",
     Modrinth: "https://modrinth.com/mod/create-love-war"
     },
+    "Create: Metallurgy": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-metallurgy",
+    Modrinth: "https://modrinth.com/mod/create-metallurgy"
+    },
     "Create: New Age": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-new-age",
     Modrinth: "https://modrinth.com/mod/create-new-age"
@@ -343,6 +355,10 @@ const SupportedMods = {
     "Exp Ore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/exp-ore",
     Modrinth: "https://modrinth.com/mod/exp-ore"
+    },
+    "Exp Ores": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/exp-ores",
+    Modrinth: "https://modrinth.com/mod/exp-ores"
     },
     "Expanded Delight": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/expanded-delight",
@@ -522,6 +538,10 @@ const SupportedMods = {
     },
     "Mofu's better end / Mofu's Broken Constellation": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mofus-broken-constellation",
+    Modrinth: null
+    },
+    "More Gems": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/more-gems-fabric",
     Modrinth: null
     },
     "More Metals II": {
@@ -776,9 +796,17 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunking-master",
     Modrinth: null
     },
+    "Star Wars Planet Stellaris": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/star-wars-planet-stellaris",
+    Modrinth: "https://modrinth.com/mod/star-wars-planet-stellaris"
+    },
     "Stargate Journey": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sgjourney",
     Modrinth: "https://modrinth.com/mod/sgjourney"
+    },
+    "Stellaris": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stellaris",
+    Modrinth: "https://modrinth.com/mod/stellaris"
     },
     "Sulfur and Potassium - More Gunpowder": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sulfur-and-potassium-make-more-gunpowder",
