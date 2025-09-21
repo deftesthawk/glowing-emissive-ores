@@ -364,6 +364,10 @@ const SupportedMods = {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/expanded-delight",
     Modrinth: "https://modrinth.com/mod/expanded-delight"
     },
+    "Experience Extra": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/experience-extra",
+    Modrinth: "https://modrinth.com/mod/experience-extra"
+    },
     "ExtraResources": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/extraresources",
     Modrinth: null
@@ -768,6 +772,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/simpleores",
     Modrinth: "https://modrinth.com/mod/simpleores"
     },
+    "Simply Sulphur": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/simply-sulphur",
+    Modrinth: "https://modrinth.com/mod/simply-sulphur"
+    },
     "Sky's Netherite Ore Remined": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-netherite-ore-remined",
     Modrinth: "https://modrinth.com/mod/skys-netherite-ore-remined"
@@ -815,6 +823,10 @@ const SupportedMods = {
     "Sullys Mod": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sullys-mod",
     Modrinth: "https://modrinth.com/mod/sullysmod"
+    },
+    "Superb Warfare": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/superb-warfare",
+    Modrinth: "https://modrinth.com/mod/superb-warfare"
     },
     "Tech Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/techreborn",
