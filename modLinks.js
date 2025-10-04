@@ -528,6 +528,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mekanism",
     Modrinth: "https://modrinth.com/mod/mekanism"
     },
+    "Metallic Tinkering": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/metallic-tinkering",
+    Modrinth: "https://modrinth.com/mod/metallic-tinkering"
+    },
     "Minestuck": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/minestuck",
     Modrinth: null
