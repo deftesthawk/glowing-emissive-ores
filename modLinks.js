@@ -664,6 +664,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/pixelmon",
     Modrinth: "https://modrinth.com/mod/pixelmon"
     },
+    "Potassium & Sulfur's Gunpowder": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-gunpowder-crafting",
+    Modrinth: null
+    },
     "Powah": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/powah",
     Modrinth: "https://modrinth.com/mod/powah"
@@ -723,6 +727,10 @@ const SupportedMods = {
     "RPG style More Weapons!": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rpg-style-more-weapons",
     Modrinth: "https://modrinth.com/mod/rpg_style_more_weapons"
+    },
+    "Rubinated Nether": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rubinated-nether",
+    Modrinth: "https://modrinth.com/mod/rubinated-nether"
     },
     "Sacred Ore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sacred-ore",
