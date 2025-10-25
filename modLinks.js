@@ -184,6 +184,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cinderscapes",
     Modrinth: "https://modrinth.com/mod/cinderscapes"
     },
+    "Clanging Howl": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clanging-howl",
+    Modrinth: null
+    },
     "Clustore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clustore",
     Modrinth: null
@@ -339,6 +343,10 @@ const SupportedMods = {
     "Enlightend": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enlightend",
     Modrinth: "https://modrinth.com/mod/enlightend"
+    },
+    "EnviroMine Lite": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enviromine-lite",
+    Modrinth: "https://modrinth.com/mod/enviromine-lite"
     },
     "Epic Paladins": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/epic-paladins",
