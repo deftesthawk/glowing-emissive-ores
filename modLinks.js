@@ -216,6 +216,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cosmere",
     Modrinth: "https://modrinth.com/mod/cosmere"
     },
+    "Craft Spawn Eggs & Spawners": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spawn-reborn-tricky-trails",
+    Modrinth: null
+    },
     "Create (Forge)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create",
     Modrinth: "https://modrinth.com/mod/create"
@@ -488,6 +492,26 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/legendary-monsters",
     Modrinth: "https://modrinth.com/mod/legendary-monsters"
     },
+    "Levia's Beryls": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/levias-beryls",
+    Modrinth: null
+    },
+    "Levia's Corundums": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/levias-corundums-fantasy",
+    Modrinth: null
+    },
+    "Levia's Garnets": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/levias-garnets",
+    Modrinth: null
+    },
+    "Levia's Metals": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/levias-metals-fantasy",
+    Modrinth: null
+    },
+    "Levia's Quartzes": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/levias-quartzes",
+    Modrinth: null
+    },
     "Lifesteal": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/lifesteal-mian",
     Modrinth: "https://modrinth.com/mod/lifesteal-mian"
@@ -647,6 +671,10 @@ const SupportedMods = {
     "Ores and Metals": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ores-and-metals",
     Modrinth: null
+    },
+    "Orevolution": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/orevolution",
+    Modrinth: "https://modrinth.com/mod/orevolution"
     },
     "Oritech": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oritech",
