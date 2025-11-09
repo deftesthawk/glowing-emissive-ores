@@ -396,6 +396,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus",
     Modrinth: "https://modrinth.com/mod/forbidden-arcanus"
     },
+    "Forestry: Community Edition": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/forestry-community-edition",
+    Modrinth: "https://modrinth.com/mod/forestry-community-edition"
+    },
     "Fossils and Archeology: Revival": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/fossils",
     Modrinth: "https://modrinth.com/mod/fossils-and-archeology-revival"
@@ -475,6 +479,10 @@ const SupportedMods = {
     "Journey Into the Light": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/journey-into-the-light-mod",
     Modrinth: "https://modrinth.com/mod/jitl"
+    },
+    "Jurassic Reborn": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/jurassic-reborn",
+    Modrinth: "https://modrinth.com/mod/jurassic-reborn"
     },
     "Just Enough Guns": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/just-enough-guns",
