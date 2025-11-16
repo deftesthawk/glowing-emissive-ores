@@ -344,6 +344,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enderscape",
     Modrinth: "https://modrinth.com/mod/enderscape"
     },
+    "Energized Power": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/energized-power",
+    Modrinth: "https://modrinth.com/mod/energized-power"
+    },
     "Enlightend": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enlightend",
     Modrinth: "https://modrinth.com/mod/enlightend"
