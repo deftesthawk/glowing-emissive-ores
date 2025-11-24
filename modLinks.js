@@ -108,6 +108,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ancient-aether",
         Modrinth: "https://modrinth.com/mod/ancient-aether"
     },
+    "Ancient Elements": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ancient-elements",
+        Modrinth: "https://modrinth.com/mod/ancient-elements-mod"
+    },
     "Applied Energistics 2": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
         Modrinth: "https://modrinth.com/mod/ae2"
@@ -983,6 +987,10 @@ const SupportedMods = {
     "Universal Ores": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/universal-ores-fabric",
     Modrinth: "https://modrinth.com/mod/universal_ores"
+    },
+    "Unusual Prehistory": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/unusual-prehistory",
+    Modrinth: "https://modrinth.com/mod/unusual-prehistory-forge"
     },
     "Vintage Vibes": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/vintage-vibes",
