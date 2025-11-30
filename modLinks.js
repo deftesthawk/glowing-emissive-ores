@@ -272,6 +272,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/darkblades",
     Modrinth: "https://modrinth.com/mod/darkblades"
     },
+    "Darwin 4": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/darwin-iv-mod",
+    Modrinth: "https://modrinth.com/mod/darwin-iv-mod"
+    },
     "Deep Aether": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/deep-aether",
     Modrinth: "https://modrinth.com/mod/deep-aether"
