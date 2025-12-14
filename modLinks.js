@@ -252,6 +252,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-new-age",
     Modrinth: "https://modrinth.com/mod/create-new-age"
     },
+    "Create: Northstar - Redux": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/northstar-redux",
+    Modrinth: "https://modrinth.com/mod/northstar-redux"
+    },
     "Create: Tank Defenses": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses",
     Modrinth: "https://modrinth.com/mod/create-tank-defenses"
@@ -756,6 +760,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/railcraft-reborn",
     Modrinth: "https://modrinth.com/mod/railcraft-reborn"
     },
+    "Randomium Ore": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/randomium-ore",
+    Modrinth: "https://modrinth.com/mod/randomium-ore"
+    },
     "RandomOre": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/randomore",
     Modrinth: null
@@ -843,6 +851,10 @@ const SupportedMods = {
     "Simply Sulphur": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/simply-sulphur",
     Modrinth: "https://modrinth.com/mod/simply-sulphur"
+    },
+    "Skniro's Nether and End Ores": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skniros-nether-end-ores",
+    Modrinth: "https://modrinth.com/mod/skniros-nether-end-ores"
     },
     "Sky's Netherite Ore Remined": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-netherite-ore-remined",
