@@ -332,6 +332,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/elementus",
     Modrinth: "https://modrinth.com/mod/elementus"
     },
+    "Embers Rekindled": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/embers-rekindled",
+    Modrinth: "https://modrinth.com/mod/embers"
+    },
     "End Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/end-ores",
     Modrinth: null
@@ -459,6 +463,10 @@ const SupportedMods = {
     "Grim & Bleak (semi-Horror)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/grim-bleak",
     Modrinth: "https://modrinth.com/mod/grim-and-bleak"
+    },
+    "Hazen 'N Stuff": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/hazen-n-stuff",
+    Modrinth: null
     },
     "Ice and Fire: Dragons": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons",
