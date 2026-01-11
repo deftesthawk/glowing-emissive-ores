@@ -256,6 +256,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/northstar-redux",
     Modrinth: "https://modrinth.com/mod/northstar-redux"
     },
+    "Create: Nuclear": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/createnuclear",
+    Modrinth: "https://modrinth.com/mod/createnuclear"
+    },
     "Create: Tank Defenses": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses",
     Modrinth: "https://modrinth.com/mod/create-tank-defenses"
