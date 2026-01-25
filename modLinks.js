@@ -116,6 +116,14 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
         Modrinth: "https://modrinth.com/mod/ae2"
     },
+    "Armageddon": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/armageddon",
+        Modrinth: "https://modrinth.com/mod/armageddon"
+    },
+    "Armamentarium": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/armamentarium",
+        Modrinth: null
+    },
     "Ars Nouveau": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau",
         Modrinth: "https://modrinth.com/mod/ars-nouveau"
@@ -752,6 +760,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/progression-reborn",
     Modrinth: "https://modrinth.com/mod/progression-reborn"
     },
+    "Project Alpha": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/project-alpha",
+    Modrinth: "https://modrinth.com/mod/project-alpha"
+    },
     "Project Red - Exploration": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/project-red-exploration",
     Modrinth: null
@@ -779,6 +791,10 @@ const SupportedMods = {
     "RandomOre": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/randomore",
     Modrinth: null
+    },
+    "RayvaxMod:More Ores": {
+    CurseForge: null,
+    Modrinth: "https://modrinth.com/mod/rayvaxmodmore_ores"
     },
     "Resource Nether Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/resource-nether-ores",
