@@ -212,6 +212,14 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemon",
     Modrinth: "https://modrinth.com/mod/cobblemon"
     },
+    "Cobblemon: Legendary Monuments": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/legendary-monuments-cobblemon",
+    Modrinth: "https://modrinth.com/mod/legendary-monuments"
+    },
+    "Cobblemon: Mega Showdown": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemon-mega-showdown",
+    Modrinth: "https://modrinth.com/mod/cobblemon-mega-showdown"
+    },
     "Cobblemore Lib": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cobblemore-lib",
     Modrinth: "https://modrinth.com/mod/cobblemore-library"
@@ -420,6 +428,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/extreme-reactors",
     Modrinth: "https://modrinth.com/mod/extreme-reactors"
     },
+    "Fantasy Metals": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/fantasy-metals",
+    Modrinth: "https://modrinth.com/mod/fantasy-metals"
+    },
     "Feywild": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/feywild",
     Modrinth: null
@@ -587,6 +599,10 @@ const SupportedMods = {
     "Many More Ores and Crafts": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/many-more-ores-and-crafts",
     Modrinth: "https://modrinth.com/mod/many-more-ores-and-crafts"
+    },
+    "Mar Mar's Enhanced Ore Variety": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mar-mars-enhanced-ore-variety",
+    Modrinth: "https://modrinth.com/mod/mar-mars-enhanced-ore-variety"
     },
     "Marium's Soulslike Weaponry": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry",
