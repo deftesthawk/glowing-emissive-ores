@@ -140,13 +140,17 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/basic-nether-ores",
         Modrinth: "https://modrinth.com/mod/basic-nether-ores"
     },
+    "BBL Utility": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/bbl-opolis-utility",
+        Modrinth: null,
+    },
     "BetterEnd": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/betterend",
     Modrinth: "https://modrinth.com/mod/betterend"
     },
     "Better End Potato Edition": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/better-end-potato-edition",
-    Modrinth: null
+    Modrinth: null,
     },
     "BetterNether": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/betternether",
@@ -154,11 +158,11 @@ const SupportedMods = {
     },
     "Bexla's Enhanced Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/bexlas-enhanced-ores",
-    Modrinth: null
+    Modrinth: null,
     },
     "Bigger Reactors": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/biggerreactors",
-    Modrinth: null
+    Modrinth: null,
     },
     "Blue Skies": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/blue-skies",
