@@ -256,6 +256,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-more-additions",
     Modrinth: "https://modrinth.com/mod/create-more-additions"
     },
+    "Create: Gunsmithing": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cgs",
+    Modrinth: "https://modrinth.com/mod/cgs"
+    },
     "Create: Ironworks": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-ironworks",
     Modrinth: "https://modrinth.com/mod/create-ironworks"
@@ -932,6 +936,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunking-master",
     Modrinth: null
     },
+    "STAL Alloys": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stal-alloys",
+    Modrinth: "https://modrinth.com/mod/stal-alloys"
+    },
     "Star Wars Planet Stellaris": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/star-wars-planet-stellaris",
     Modrinth: "https://modrinth.com/mod/star-wars-planet-stellaris"
@@ -955,6 +963,10 @@ const SupportedMods = {
     "Superb Warfare": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/superb-warfare",
     Modrinth: "https://modrinth.com/mod/superb-warfare"
+    },
+    "Superior Ores": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/superior-ores",
+    Modrinth: "https://modrinth.com/mod/superior-ores"
     },
     "Tech Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/techreborn",
