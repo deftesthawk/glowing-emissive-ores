@@ -284,6 +284,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/createnuclear",
     Modrinth: "https://modrinth.com/mod/createnuclear"
     },
+    "Create: Rock & Stone": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-rns",
+    Modrinth: "https://modrinth.com/mod/create-rns"
+    },
     "Create: Tank Defenses": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-tank-defenses",
     Modrinth: "https://modrinth.com/mod/create-tank-defenses"
@@ -756,6 +760,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/pfw-aesthetic-gems",
     Modrinth: "https://modrinth.com/mod/pfw-aethetic-gems"
     },
+    "Phayriosis Parasite Infection": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/phayriosis-parasite-infection",
+    Modrinth: null
+    },
     "Phosphophyllite": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/phosphophyllite",
     Modrinth: "https://modrinth.com/mod/phos"
@@ -1067,6 +1075,10 @@ const SupportedMods = {
     "Unusual Prehistory": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/unusual-prehistory",
     Modrinth: "https://modrinth.com/mod/unusual-prehistory-forge"
+    },
+    "Valoria": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/valoria",
+    Modrinth: "https://modrinth.com/mod/valoria"
     },
     "Vintage Vibes": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/vintage-vibes",
