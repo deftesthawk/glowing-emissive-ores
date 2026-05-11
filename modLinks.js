@@ -272,6 +272,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-metallurgy",
     Modrinth: "https://modrinth.com/mod/create-metallurgy"
     },
+    "Create: More Features": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-more-features",
+    Modrinth: "https://modrinth.com/mod/create-more-features"
+    },
     "Create: New Age": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-new-age",
     Modrinth: "https://modrinth.com/mod/create-new-age"
