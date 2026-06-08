@@ -964,6 +964,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stellaris",
     Modrinth: "https://modrinth.com/mod/stellaris"
     },
+    "Subterranean Wilderness Revival": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/subterranean-wilderness-revival",
+    Modrinth: "https://modrinth.com/mod/subterranean-wilderness-revival"
+    },
     "Sulfur and Potassium - More Gunpowder": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sulfur-and-potassium-make-more-gunpowder",
     Modrinth: "https://modrinth.com/mod/sulfur-and-potassium"
@@ -1019,6 +1023,10 @@ const SupportedMods = {
     "The Indigo": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-indigo",
     Modrinth: null
+    },
+    "The Mi Alliance: Invasion!": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-mi-alliance-invasion",
+    Modrinth: "https://modrinth.com/mod/mi-alliance-invasion"
     },
     "The Midnight": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-midnight",
