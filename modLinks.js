@@ -1098,7 +1098,7 @@ const SupportedMods = {
     },
     "Unusual Prehistory": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/unusual-prehistory",
-    Modrinth: "https://modrinth.com/mod/unusual-prehistory-forge"
+    Modrinth: "https://modrinth.com/mod/unusual-prehistory"
     },
     "Valoria": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/valoria",
