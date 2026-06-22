@@ -66,7 +66,7 @@ window.CurseForgeIcons = Object.freeze({
   'The Vault Mod (Standalone)': 'https://media.forgecdn.net/avatars/thumbnails/1739/602/64/64/639107476873939595.png',
   'Tierify Ores': 'https://media.forgecdn.net/avatars/thumbnails/1025/23/64/64/638548351556239997.png',
   'Treasure2': 'https://media.forgecdn.net/avatars/thumbnails/464/850/64/64/637745010451141661.png',
-  'Unearthed': 'https://media.forgecdn.net/avatars/345/64/637492547562298213.png',
+  'Unearthed': 'https://media.forgecdn.net/avatars/thumbnails/345/256/256/256/637492547562298213.png',
   'Voidscape': 'https://media.forgecdn.net/avatars/thumbnails/884/462/64/64/638318694008176397.png',
   'Warriors of Past Epoch': 'https://media.forgecdn.net/avatars/thumbnails/1004/861/64/64/638526083319055490.png',
   'ZYCraft': 'https://media.forgecdn.net/avatars/thumbnails/296/776/64/64/637341991584167776_animated.gif',
