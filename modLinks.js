@@ -164,6 +164,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/biggerreactors",
     Modrinth: null,
     },
+    "Blast from the Past": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/bftp",
+    Modrinth: "https://modrinth.com/mod/blast-from-the-past"
+    },
     "Blue Skies": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/blue-skies",
     Modrinth: "https://modrinth.com/mod/blue-skies"
@@ -287,6 +291,10 @@ const SupportedMods = {
     "Create: Nuclear": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/createnuclear",
     Modrinth: "https://modrinth.com/mod/createnuclear"
+    },
+    "Create: Propulsion Simulated": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-propulsion-simulated",
+    Modrinth: "https://modrinth.com/mod/create-propulsion-simulated"
     },
     "Create: Rock & Stone": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-rns",
@@ -971,6 +979,10 @@ const SupportedMods = {
     "Sulfur and Potassium - More Gunpowder": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sulfur-and-potassium-make-more-gunpowder",
     Modrinth: "https://modrinth.com/mod/sulfur-and-potassium"
+    },
+    "Sulfur Caves Plus": {
+    CurseForge: null,
+    Modrinth: "https://modrinth.com/mod/sulfur-caves-plus"
     },
     "Sullys Mod": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sullys-mod",
