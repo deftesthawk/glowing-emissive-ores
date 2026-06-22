@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Filter Glowing Emissive Ores requirements by Minecraft modloader and version." name="description"/>
+<meta content="#121212" name="theme-color"/>
+<title>Requirements - Filter | Glowing Emissive Ores</title>
+<link href="../assets/favicon.png" rel="icon" type="image/png"/>
+<link as="image" fetchpriority="high" href="../assets/logo.png" rel="preload" type="image/png"/>
+<link as="image" href="../assets/background.png" rel="preload" type="image/png"/>
+<style data-critical="site-shell">
+/* Prevent the shared header from flashing unstyled while the main stylesheet loads. */
+html {
+  min-width: 280px;
+  background: #111;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+/* Keep the finished header visible, but never paint the rest of the page
+   before the full stylesheet is ready. */
+html:not(.styles-ready) .skip-link,
+html:not(.styles-ready) .site-toolbar-wrap,
+html:not(.styles-ready) .page-content {
+  display: none !important;
+}
+
+.site-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.7rem 0 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.035);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 115%, rgba(50, 215, 234, 0.045), transparent 38%),
+    linear-gradient(180deg, rgba(25, 25, 25, 0.97), rgba(14, 14, 14, 0.97));
+}
+
+.brand-link {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  max-height: 205px;
+  object-fit: contain;
+}
+</style>
+<link fetchpriority="high" href="../styles.css?v=15" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<noscript><style>
+html:not(.styles-ready) .skip-link,
+html:not(.styles-ready) .site-toolbar-wrap,
+html:not(.styles-ready) .page-content {
+  display: block !important;
+}
+</style></noscript>
+</head>
+<body data-page="requirements">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<a aria-label="Open the Glowing Emissive Ores project page" class="brand-link" data-mod="Glowing Emissive Ores" href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores">
+<img alt="Glowing Emissive Ores" class="logo" decoding="sync" fetchpriority="high" height="1032" loading="eager" src="../assets/logo.png" width="2048"/>
+</a>
+</header>
+<div class="site-toolbar-wrap">
+<div class="site-toolbar">
+<nav aria-label="Main sections" class="page-tabs"><a aria-current="page" class="page-tab active" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a class="page-tab" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
+<div aria-label="Preferred project-link website" class="platform-switcher">
+<span class="platform-label"><span aria-hidden="true" class="platform-label-icon">🔗</span> Open links on</span>
+<div aria-label="Choose the website used for project links" class="platform-options" role="group">
+<button aria-pressed="false" class="platform-button" data-platform="curseforge" type="button">CurseForge</button>
+<button aria-pressed="false" class="platform-button" data-platform="modrinth" type="button">Modrinth</button>
+</div>
+</div>
+</div>
+</div>
+<main class="page-content" id="main-content">
+<h1 class="visually-hidden">Filter requirements</h1>
+<nav aria-label="Requirements views" class="requirements-subnav">
+<a class="requirements-view-link" href="../requirements-all/"><span aria-hidden="true" class="requirements-view-icon">📋</span> All Options</a>
+<a aria-current="page" class="requirements-view-link active-view" href="../requirements-filter/"><span aria-hidden="true" class="requirements-view-icon">🎯</span> Filter by Modloader / Version</a>
+</nav>
+<div class="filtered-requirements">
+<div class="filter-container">
+<div class="filter-group">
+<label for="modLoader">
+              Modloader:
+              <select id="modLoader">
+<option value="fabric">Fabric</option>
+<option value="forge">Forge</option>
+<option value="neoforge">NeoForge</option>
+</select>
+</label>
+<label for="minecraftVersion">
+              Minecraft Version:
+              <select id="minecraftVersion">
+</select>
+</label>
+</div>
+</div>
+<div id="results-container">
+<div class="info-box">
+            ⚠️ Only install the requirements from <span>ONE</span> option
+          </div>
+<div class="result-box" hidden="" id="continuityFabricResult">
+<h3>Option: Continuity</h3>
+<ul>
+<li>
+<a data-mod="Continuity" rel="noopener noreferrer" target="_blank">Continuity</a>
+                - (Only supports Emissive textures on version 1.18.2 or higher)
+              </li>
+<li>
+<a data-mod="Sodium" rel="noopener noreferrer" target="_blank">Sodium</a>
+                - (Not needed, but I highly recommend this)
+              </li>
+<li>
+<a data-mod="Indium" rel="noopener noreferrer" target="_blank">Indium</a>
+                - (Only required if you're using versions of Sodium lower than 0.6)
+              </li>
+</ul>
+<p><strong>Note:</strong> versions of Sodium lower than 0.6 are known to cause Z-fighting issues when combined with Continuity.</p>
+</div>
+<div class="result-box" hidden="" id="continuityForgeResult">
+<h3>Option: Continuity</h3>
+<ul>
+<li>
+<a data-mod="Continuity" rel="noopener noreferrer" target="_blank">Continuity</a>
+</li>
+<li>
+<a data-mod="Sinytra Connector" rel="noopener noreferrer" target="_blank">Sinytra Connector</a>
+                - (Makes Fabric mods work on Forge)
+              </li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="continuityNeoForgeResult">
+<h3>Option: Continuity</h3>
+<ul>
+<li>
+<a data-mod="Continuity" rel="noopener noreferrer" target="_blank">Continuity</a>
+</li>
+<li>
+<a data-mod="Sinytra Connector" rel="noopener noreferrer" target="_blank">Sinytra Connector</a>
+                - (Makes Fabric mods work on NeoForge)
+              </li>
+<li>
+<a data-mod="Sodium" rel="noopener noreferrer" target="_blank">Sodium</a>
+                (NeoForge Version, 1.21.1+) or
+                <a data-mod="Embeddium" rel="noopener noreferrer" target="_blank">Embeddium</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="moreMCMetaFabricResult">
+<h3>Option: MoreMCMeta</h3>
+<ul>
+<li>
+<a data-mod="MoreMCMeta (Fabric)" rel="noopener noreferrer" target="_blank">MoreMCMeta (Fabric)</a>
+</li>
+<li>
+<a data-mod="MoreMCMeta Emissive Textures (Fabric)" rel="noopener noreferrer" target="_blank">MoreMCMeta Emissive Textures (Fabric)</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="moreMCMetaForgeResult">
+<h3>Option: MoreMCMeta</h3>
+<ul>
+<li>
+<a data-mod="MoreMCMeta (Forge)" rel="noopener noreferrer" target="_blank">MoreMCMeta (Forge)</a>
+</li>
+<li>
+<a data-mod="MoreMCMeta Emissive Textures (Forge)" rel="noopener noreferrer" target="_blank">MoreMCMeta Emissive Textures (Forge)</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="connectednessForgeResult">
+<h3>Option: Connectedness</h3>
+<ul>
+<li>
+<a data-mod="Connectedness" rel="noopener noreferrer" target="_blank">Connectedness</a>
+</li>
+<li>
+<a data-mod="Rubidium" rel="noopener noreferrer" target="_blank">Rubidium</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="fusionFabricResult">
+<h3>Option: Fusion</h3>
+<ul>
+<li>
+<a data-mod="Glowing Emissive Ores - Fusion" rel="noopener noreferrer" target="_blank">Glowing Emissive Ores - Fusion</a>
+                - (Needs to be above GEO in the load order)
+              </li>
+<li>
+<a data-mod="Fusion" rel="noopener noreferrer" target="_blank">Fusion (Connected Textures)</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="fusionForgeResult">
+<h3>Option: Fusion</h3>
+<ul>
+<li>
+<a data-mod="Glowing Emissive Ores - Fusion" rel="noopener noreferrer" target="_blank">Glowing Emissive Ores - Fusion</a>
+                - (Needs to be above GEO in the load order)
+              </li>
+<li>
+<a data-mod="Fusion" rel="noopener noreferrer" target="_blank">Fusion (Connected Textures)</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="fusionNeoForgeResult">
+<h3>Option: Fusion</h3>
+<ul>
+<li>
+<a data-mod="Glowing Emissive Ores - Fusion" rel="noopener noreferrer" target="_blank">Glowing Emissive Ores - Fusion</a>
+                - (Needs to be above GEO in the load order)
+              </li>
+<li>
+<a data-mod="Fusion" rel="noopener noreferrer" target="_blank">Fusion (Connected Textures)</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="optifineFabricResult">
+<h3>Option: OptiFine</h3>
+<ul>
+<li>
+<a data-mod="OptiFine" rel="noopener noreferrer" target="_blank">OptiFine</a>
+</li>
+<li>
+<a data-mod="OptiFabric" rel="noopener noreferrer" target="_blank">OptiFabric</a>
+</li>
+</ul>
+</div>
+<div class="result-box" hidden="" id="optifineForgeResult">
+<h3>Option: OptiFine</h3>
+<ul>
+<li>
+<a data-mod="OptiFine" rel="noopener noreferrer" target="_blank">OptiFine</a>
+</li>
+</ul>
+</div>
+<div class="result-box empty-result" hidden="" id="noResults"><h3>No options available</h3><p id="noResultsMessage">No requirement options are available for this selection.</p></div></div>
+</div>
+</main>
+<script defer="" src="../modLinks.js?v=15"></script>
+<script defer="" src="../scripts/common.js?v=15"></script>
+<script defer="" src="../scripts/requirements-filter.js?v=15"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Search the Minecraft mods supported by the Glowing Emissive Ores resource pack." name="description"/>
+<meta content="#121212" name="theme-color"/>
+<title>Supported Mods | Glowing Emissive Ores</title>
+<link href="../assets/favicon.png" rel="icon" type="image/png"/>
+<link as="image" fetchpriority="high" href="../assets/logo.png" rel="preload" type="image/png"/>
+<link as="image" href="../assets/background.png" rel="preload" type="image/png"/>
+<style data-critical="site-shell">
+/* Prevent the shared header from flashing unstyled while the main stylesheet loads. */
+html {
+  min-width: 280px;
+  background: #111;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+/* Keep the finished header visible, but never paint the rest of the page
+   before the full stylesheet is ready. */
+html:not(.styles-ready) .skip-link,
+html:not(.styles-ready) .site-toolbar-wrap,
+html:not(.styles-ready) .page-content {
+  display: none !important;
+}
+
+.site-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.7rem 0 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.035);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 115%, rgba(50, 215, 234, 0.045), transparent 38%),
+    linear-gradient(180deg, rgba(25, 25, 25, 0.97), rgba(14, 14, 14, 0.97));
+}
+
+.brand-link {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  max-height: 205px;
+  object-fit: contain;
+}
+</style>
+<link fetchpriority="high" href="../styles.css?v=15" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<noscript><style>
+html:not(.styles-ready) .skip-link,
+html:not(.styles-ready) .site-toolbar-wrap,
+html:not(.styles-ready) .page-content {
+  display: block !important;
+}
+</style></noscript>
+</head>
+<body data-page="supported">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<a aria-label="Open the Glowing Emissive Ores project page" class="brand-link" data-mod="Glowing Emissive Ores" href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores">
+<img alt="Glowing Emissive Ores" class="logo" decoding="sync" fetchpriority="high" height="1032" loading="eager" src="../assets/logo.png" width="2048"/>
+</a>
+</header>
+<div class="site-toolbar-wrap">
+<div class="site-toolbar">
+<nav aria-label="Main sections" class="page-tabs"><a class="page-tab" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a aria-current="page" class="page-tab active" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a class="page-tab" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
+<div aria-label="Preferred project-link website" class="platform-switcher">
+<span class="platform-label"><span aria-hidden="true" class="platform-label-icon">🔗</span> Open links on</span>
+<div aria-label="Choose the website used for project links" class="platform-options" role="group">
+<button aria-pressed="false" class="platform-button" data-platform="curseforge" type="button">CurseForge</button>
+<button aria-pressed="false" class="platform-button" data-platform="modrinth" type="button">Modrinth</button>
+</div>
+</div>
+</div>
+</div>
+<main class="page-content" id="main-content">
+<section class="page-intro">
+<p class="eyebrow">Compatibility list</p>
+<h1>Supported Mods</h1>
+<p>Glowing Emissive Ores supports everything listed below. These mods are supported, not required.</p>
+</section>
+<section aria-labelledby="supported-search-label" class="supported-browser">
+<div class="supported-toolbar">
+<label for="supportedSearch" id="supported-search-label">Search supported mods</label>
+<div class="search-row">
+<input autocomplete="off" id="supportedSearch" placeholder="Start typing a mod name..." spellcheck="false" type="search"/>
+<p aria-live="polite" class="supported-count" id="supportedCount"></p>
+</div>
+</div>
+<ul aria-label="Supported mods" class="supported-list"></ul>
+<p class="empty-message" hidden="" id="supportedEmpty">No supported mods match that search.</p>
+</section>
+</main>
+<script defer="" src="../modLinks.js?v=15"></script>
+<script defer="" src="../scripts/common.js?v=15"></script><script defer="" src="../scripts/curseforge-icons.js?v=15"></script>
+<script defer="" src="../scripts/supported.js?v=15"></script>
+</body>
+</html>
