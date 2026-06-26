@@ -8,6 +8,14 @@
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <script>
     (function () {
+      var variantStorageKey = 'geoPreferredVariant';
+      var allowedVariants = ['resource-pack', 'mod'];
+      var url = new URL(window.location.href);
+      var requestedVariant = url.searchParams.get('variant');
+      var selectedVariant = allowedVariants.indexOf(requestedVariant) !== -1
+        ? requestedVariant
+        : null;
+
       try {
         var hostname = document.referrer
           ? new URL(document.referrer).hostname.toLowerCase()
@@ -19,10 +27,54 @@
           localStorage.setItem('geoPreferredPlatform', 'curseforge');
         }
       } catch (error) {
-        // Continue to the website even when referrer or storage access is blocked.
+        // Continue when referrer or storage access is blocked.
       }
 
-      window.location.replace('requirements-all/');
+      if (!selectedVariant) {
+        try {
+          var storedVariant = localStorage.getItem(variantStorageKey);
+          if (allowedVariants.indexOf(storedVariant) !== -1) {
+            selectedVariant = storedVariant;
+          }
+        } catch (error) {
+          // Continue when storage access is blocked.
+        }
+      }
+
+      if (!selectedVariant && document.referrer) {
+        try {
+          var referrer = new URL(document.referrer);
+          var hostname = referrer.hostname.toLowerCase();
+          var pathname = referrer.pathname.toLowerCase();
+          var isCurseForge = hostname === 'curseforge.com' || hostname.endsWith('.curseforge.com');
+          var isModrinth = hostname === 'modrinth.com' || hostname.endsWith('.modrinth.com');
+
+          if ((isCurseForge && pathname.includes('/minecraft/mc-mods/')) ||
+              (isModrinth && pathname.startsWith('/mod/'))) {
+            selectedVariant = 'mod';
+          } else if ((isCurseForge && pathname.includes('/minecraft/texture-packs/')) ||
+                     (isModrinth && pathname.startsWith('/resourcepack/'))) {
+            selectedVariant = 'resource-pack';
+          }
+        } catch (error) {
+          // Ignore unavailable or malformed referrer values.
+        }
+      }
+
+      selectedVariant = selectedVariant || 'resource-pack';
+
+      try {
+        localStorage.setItem(variantStorageKey, selectedVariant);
+      } catch (error) {
+        // Pass the requested variant through the redirect when storage is blocked.
+      }
+
+      var destination = 'requirements-all/';
+      if (requestedVariant !== null && allowedVariants.indexOf(requestedVariant) !== -1) {
+        destination += '?variant=' + encodeURIComponent(requestedVariant);
+      }
+
+      window.location.replace(destination);
     }());
   </script>
 </head>

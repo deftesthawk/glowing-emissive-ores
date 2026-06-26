@@ -1,9 +1,13 @@
 // Object storing mod links by platform
 const ModLinks = {
     // Requirements ###################################################################################################
-    "Glowing Emissive Ores": {
+    "Glowing Emissive Ores - Resource Pack": {
         CurseForge: "https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores",
         Modrinth: "https://modrinth.com/resourcepack/glowing-emissive-ores"
+    },
+    "Glowing Emissive Ores - Mod": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/",
+        Modrinth: "https://modrinth.com/mod/glowing-emissive-ores-definitive-edition/"
     },
     "Continuity": {
       CurseForge: "https://www.curseforge.com/minecraft/mc-mods/continuity",

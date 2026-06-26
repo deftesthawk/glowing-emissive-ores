@@ -4,8 +4,64 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Installation instructions and troubleshooting help for the Glowing Emissive Ores resource pack." name="description"/>
+<meta content="Installation instructions and troubleshooting help for Glowing Emissive Ores." name="description"/>
 <meta content="#121212" name="theme-color"/>
+<script data-geo-variant-init>
+(function () {
+  var storageKey = 'geoPreferredVariant';
+  var allowedVariants = ['resource-pack', 'mod'];
+  var url = new URL(window.location.href);
+  var requestedVariant = url.searchParams.get('variant');
+  var selectedVariant = allowedVariants.indexOf(requestedVariant) !== -1
+    ? requestedVariant
+    : null;
+
+  if (!selectedVariant) {
+    try {
+      var storedVariant = window.localStorage.getItem(storageKey);
+      if (allowedVariants.indexOf(storedVariant) !== -1) {
+        selectedVariant = storedVariant;
+      }
+    } catch (error) {
+      // Continue when storage access is blocked.
+    }
+  }
+
+  if (!selectedVariant && document.referrer) {
+    try {
+      var referrer = new URL(document.referrer);
+      var hostname = referrer.hostname.toLowerCase();
+      var pathname = referrer.pathname.toLowerCase();
+      var isCurseForge = hostname === 'curseforge.com' || hostname.endsWith('.curseforge.com');
+      var isModrinth = hostname === 'modrinth.com' || hostname.endsWith('.modrinth.com');
+
+      if ((isCurseForge && pathname.includes('/minecraft/mc-mods/')) ||
+          (isModrinth && pathname.startsWith('/mod/'))) {
+        selectedVariant = 'mod';
+      } else if ((isCurseForge && pathname.includes('/minecraft/texture-packs/')) ||
+                 (isModrinth && pathname.startsWith('/resourcepack/'))) {
+        selectedVariant = 'resource-pack';
+      }
+    } catch (error) {
+      // Ignore unavailable or malformed referrer values.
+    }
+  }
+
+  selectedVariant = selectedVariant || 'resource-pack';
+  document.documentElement.dataset.geoVariant = selectedVariant;
+
+  try {
+    window.localStorage.setItem(storageKey, selectedVariant);
+  } catch (error) {
+    // The selector still works for the current page when storage is blocked.
+  }
+
+  if (requestedVariant !== null) {
+    url.searchParams.delete('variant');
+    window.history.replaceState(window.history.state, '', url.pathname + url.search + url.hash);
+  }
+}());
+</script>
 <title>Help | Glowing Emissive Ores</title>
 <link href="../assets/favicon.png" rel="icon" type="image/png"/>
 <link as="image" fetchpriority="high" href="../assets/logo.png" rel="preload" type="image/png"/>
@@ -58,7 +114,7 @@ html:not(.styles-ready) .page-content {
   object-fit: contain;
 }
 </style>
-<link fetchpriority="high" href="../styles.css?v=15" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<link fetchpriority="high" href="../styles.css?v=18" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
 <noscript><style>
 html:not(.styles-ready) .skip-link,
 html:not(.styles-ready) .site-toolbar-wrap,
@@ -70,12 +126,19 @@ html:not(.styles-ready) .page-content {
 <body data-page="help">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
-<a aria-label="Open the Glowing Emissive Ores project page" class="brand-link" data-mod="Glowing Emissive Ores" href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores">
+<a aria-label="Open the selected Glowing Emissive Ores project page" class="brand-link" data-mod-mod="Glowing Emissive Ores - Mod" data-mod-resource-pack="Glowing Emissive Ores - Resource Pack" href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores">
 <img alt="Glowing Emissive Ores" class="logo" decoding="sync" fetchpriority="high" height="1032" loading="eager" src="../assets/logo.png" width="2048"/>
 </a>
 </header>
 <div class="site-toolbar-wrap">
 <div class="site-toolbar">
+<div aria-label="Glowing Emissive Ores variant" class="variant-switcher">
+<span class="variant-label"><span aria-hidden="true" class="variant-label-icon">⚙️</span> Using</span>
+<div aria-label="Choose whether you use the mod or resource pack" class="variant-options" role="group">
+<button aria-pressed="false" class="variant-button" data-variant="resource-pack" type="button">Resource Pack</button>
+<button aria-pressed="false" class="variant-button" data-variant="mod" type="button">Mod</button>
+</div>
+</div>
 <nav aria-label="Main sections" class="page-tabs"><a class="page-tab" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a aria-current="page" class="page-tab active" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
 <div aria-label="Preferred project-link website" class="platform-switcher">
 <span class="platform-label"><span aria-hidden="true" class="platform-label-icon">🔗</span> Open links on</span>
@@ -120,7 +183,7 @@ html:not(.styles-ready) .page-content {
 </div>
 </section>
 </main>
-<script defer="" src="../modLinks.js?v=15"></script>
-<script defer="" src="../scripts/common.js?v=15"></script>
+<script defer="" src="../modLinks.js?v=18"></script>
+<script defer="" src="../scripts/common.js?v=18"></script>
 </body>
 </html>
