@@ -179,6 +179,18 @@ function updateDataModLinks() {
   });
 }
 
+function updateVariantLinks() {
+  document.querySelectorAll('[data-resource-pack-href][data-mod-href]').forEach((link) => {
+    const href = currentVariant === 'mod'
+      ? link.dataset.modHref
+      : link.dataset.resourcePackHref;
+
+    if (href) {
+      link.href = href;
+    }
+  });
+}
+
 function choosePlatform(platform) {
   if (!Object.hasOwn(GEO_PLATFORMS, platform) || platform === currentPlatform) {
     return;
@@ -203,6 +215,7 @@ function chooseVariant(variant) {
   saveStoredValue(GEO_VARIANT_STORAGE_KEY, variant);
   updateVariantButtons();
   updateDataModLinks();
+  updateVariantLinks();
   window.dispatchEvent(new CustomEvent('geo:variantchange', {
     detail: { variant }
   }));
@@ -220,6 +233,7 @@ document.documentElement.dataset.geoVariant = currentVariant;
 updatePlatformButtons();
 updateVariantButtons();
 updateDataModLinks();
+updateVariantLinks();
 saveStoredValue(GEO_PLATFORM_STORAGE_KEY, currentPlatform);
 saveStoredValue(GEO_VARIANT_STORAGE_KEY, currentVariant);
 
