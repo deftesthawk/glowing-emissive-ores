@@ -56,6 +56,11 @@
     // The selector still works for the current page when storage is blocked.
   }
 
+  if (selectedVariant === 'mod') {
+    window.location.replace('../supported/?variant=mod');
+    return;
+  }
+
   if (requestedVariant !== null) {
     url.searchParams.delete('variant');
     window.history.replaceState(window.history.state, '', url.pathname + url.search + url.hash);
@@ -114,7 +119,7 @@ html:not(.styles-ready) .page-content {
   object-fit: contain;
 }
 </style>
-<link fetchpriority="high" href="../styles.css?v=18" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<link fetchpriority="high" href="../styles.css?v=19" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
 <noscript><style>
 html:not(.styles-ready) .skip-link,
 html:not(.styles-ready) .site-toolbar-wrap,
@@ -139,7 +144,7 @@ html:not(.styles-ready) .page-content {
 <button aria-pressed="false" class="variant-button" data-variant="mod" type="button">Mod</button>
 </div>
 </div>
-<nav aria-label="Main sections" class="page-tabs"><a aria-current="page" class="page-tab active" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a class="page-tab" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
+<nav aria-label="Main sections" class="page-tabs"><a aria-current="page" class="page-tab active resource-pack-only" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a class="page-tab" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
 <div aria-label="Preferred project-link website" class="platform-switcher">
 <span class="platform-label"><span aria-hidden="true" class="platform-label-icon">🔗</span> Open links on</span>
 <div aria-label="Choose the website used for project links" class="platform-options" role="group">
@@ -316,7 +321,7 @@ html:not(.styles-ready) .page-content {
 </div>
 </main>
 <script defer="" src="../modLinks.js?v=18"></script>
-<script defer="" src="../scripts/common.js?v=19"></script>
+<script defer="" src="../scripts/common.js?v=20"></script>
 <script defer="" src="../scripts/requirements-filter.js?v=18"></script>
 </body>
 </html>

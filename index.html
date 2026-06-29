@@ -69,16 +69,18 @@
         // Pass the requested variant through the redirect when storage is blocked.
       }
 
-      var destination = 'requirements-all/';
-      if (requestedVariant !== null && allowedVariants.indexOf(requestedVariant) !== -1) {
-        destination += '?variant=' + encodeURIComponent(requestedVariant);
-      }
+      var destination = selectedVariant === 'mod'
+        ? 'supported/'
+        : 'requirements-all/';
 
+      // Pass the selection through the redirect so it still works when storage
+      // or referrer information is unavailable. The destination removes it.
+      destination += '?variant=' + encodeURIComponent(selectedVariant);
       window.location.replace(destination);
     }());
   </script>
 </head>
 <body>
-  <p><a href="requirements-all/">Open the requirements page</a></p>
+  <p><a href="requirements-all/">Open the Glowing Emissive Ores website</a></p>
 </body>
 </html>

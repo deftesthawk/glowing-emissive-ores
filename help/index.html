@@ -114,7 +114,7 @@ html:not(.styles-ready) .page-content {
   object-fit: contain;
 }
 </style>
-<link fetchpriority="high" href="../styles.css?v=18" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<link fetchpriority="high" href="../styles.css?v=19" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
 <noscript><style>
 html:not(.styles-ready) .skip-link,
 html:not(.styles-ready) .site-toolbar-wrap,
@@ -139,7 +139,7 @@ html:not(.styles-ready) .page-content {
 <button aria-pressed="false" class="variant-button" data-variant="mod" type="button">Mod</button>
 </div>
 </div>
-<nav aria-label="Main sections" class="page-tabs"><a class="page-tab" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a aria-current="page" class="page-tab active" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
+<nav aria-label="Main sections" class="page-tabs"><a class="page-tab resource-pack-only" href="../requirements-all/"><span aria-hidden="true" class="page-tab-icon">📋</span><span class="page-tab-label">Requirements</span></a><a class="page-tab" href="../supported/"><span aria-hidden="true" class="page-tab-icon">✨</span><span class="page-tab-label">Supported</span></a><a aria-current="page" class="page-tab active" href="../help/"><span aria-hidden="true" class="page-tab-icon">❔</span><span class="page-tab-label">Help</span></a></nav>
 <div aria-label="Preferred project-link website" class="platform-switcher">
 <span class="platform-label"><span aria-hidden="true" class="platform-label-icon">🔗</span> Open links on</span>
 <div aria-label="Choose the website used for project links" class="platform-options" role="group">
@@ -151,11 +151,14 @@ html:not(.styles-ready) .page-content {
 </div>
 <main class="page-content" id="main-content">
 <section class="page-intro">
-<p class="eyebrow">Setup and fixes</p>
+<p class="eyebrow resource-pack-only">Setup and fixes</p>
 <h1>Help</h1>
-<p>Find help with choosing the correct requirements and fixing common problems.</p>
+<p class="resource-pack-only">Find help with choosing the correct requirements and fixing common problems.</p>
 </section>
-<section aria-labelledby="instructions-title" class="help-section">
+<div class="support-links mod-only">
+<p>Leave a comment on the <a data-mod-href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" data-resource-pack-href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores/comments" href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" rel="nofollow noopener noreferrer" target="_blank">CurseForge page</a> or join the <a href="https://discord.gg/vwv6dWZcK2" rel="nofollow noopener noreferrer" target="_blank">Discord server</a> for support.</p>
+</div>
+<section aria-labelledby="instructions-title" class="help-section resource-pack-only">
 <h2 id="instructions-title">Instructions</h2>
 <p>There are currently four Minecraft modloaders: NeoForge, Forge, Fabric, and Quilt. You need different requirements depending on the modloader and Minecraft version you use. Every valid combination is listed in the Requirements tab.</p>
 <div class="help-example">
@@ -169,14 +172,14 @@ html:not(.styles-ready) .page-content {
 </ol>
 </div>
 </section>
-<section aria-labelledby="troubleshooting-title" class="help-section">
+<section aria-labelledby="troubleshooting-title" class="help-section resource-pack-only">
 <h2 id="troubleshooting-title">Troubleshooting</h2>
 <ul class="troubleshooting-list">
 <li><strong>The resource pack fails to load and ModernFix is installed:</strong> Open the <code>modernfix-mixins.properties</code> config file and remove the line <code>mixin.perf.dynamic_resources=true</code>.</li>
 <li><strong>The modpack crashes during startup:</strong> Try launching it at least three times, as large modpacks can sometimes crash randomly while starting.</li>
-<li><strong>The ores are not glowing, or the modpack continues to crash:</strong> Try each available option from the Requirements list until you find one that works with the modpack. If Sinytra Connector is installed, only Fabric options such as Continuity will work.</li>
+<li class="resource-pack-only"><strong>The ores are not glowing, or the modpack continues to crash:</strong> Try each available option from the Requirements list until you find one that works with the modpack. If Sinytra Connector is installed, only Fabric options such as Continuity will work.</li>
 <li><strong>The ores only glow at certain times or distances while using shaders:</strong> Look for a shader setting named <em>Floodfill</em> and disable it. Alternatively, use a different emissive ores resource pack that supports <em>LabPBR</em>.</li>
-<li><strong>The ores are flickering:</strong> Older versions of Embeddium, Rubidium, and Sodium cause this issue. MoreMcMeta has a workaround, so use that requirements option when newer versions of these mods are unavailable.</li>
+<li class="resource-pack-only"><strong>The ores are flickering:</strong> Older versions of Embeddium, Rubidium, and Sodium cause this issue. MoreMcMeta has a workaround, so use that requirements option when newer versions of these mods are unavailable.</li>
 </ul>
 <div class="support-links">
 <p>Still stuck? Leave a comment on the <a data-mod-href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" data-resource-pack-href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores/comments" href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores/comments" rel="nofollow noopener noreferrer" target="_blank">CurseForge page</a> or join the <a href="https://discord.gg/vwv6dWZcK2" rel="nofollow noopener noreferrer" target="_blank">Discord server</a> for quicker support.</p>
@@ -184,6 +187,6 @@ html:not(.styles-ready) .page-content {
 </section>
 </main>
 <script defer="" src="../modLinks.js?v=18"></script>
-<script defer="" src="../scripts/common.js?v=19"></script>
+<script defer="" src="../scripts/common.js?v=20"></script>
 </body>
 </html>

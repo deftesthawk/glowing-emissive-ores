@@ -1050,3 +1050,23 @@ input[type="search"]:hover {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* The mod includes everything it needs, so requirement-specific navigation and
+   help are only shown for the resource-pack variant. */
+.mod-only {
+  display: none !important;
+}
+
+html[data-geo-variant="mod"] .mod-only {
+  display: block !important;
+}
+
+html[data-geo-variant="mod"] .page-tabs {
+  grid-template-columns: repeat(2, 184px);
+}
+
+@media (max-width: 620px) {
+  html[data-geo-variant="mod"] .page-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

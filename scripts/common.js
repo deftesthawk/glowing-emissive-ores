@@ -213,6 +213,12 @@ function chooseVariant(variant) {
   currentVariant = variant;
   document.documentElement.dataset.geoVariant = variant;
   saveStoredValue(GEO_VARIANT_STORAGE_KEY, variant);
+
+  if (variant === 'mod' && document.body.dataset.page === 'requirements') {
+    window.location.replace('../supported/?variant=mod');
+    return;
+  }
+
   updateVariantButtons();
   updateDataModLinks();
   updateVariantLinks();
