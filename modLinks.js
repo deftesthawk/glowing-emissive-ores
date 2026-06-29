@@ -200,10 +200,6 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/celestisynth",
     Modrinth: null
     },
-    "Chaos Awakens": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/chaos-awakens",
-    Modrinth: "https://modrinth.com/mod/chaos-awakens"
-    },
     "Cinderscapes": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/cinderscapes",
     Modrinth: "https://modrinth.com/mod/cinderscapes"
@@ -440,6 +436,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/exp-ores",
     Modrinth: "https://modrinth.com/mod/exp-ores"
     },
+    "ExpOre": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/expore",
+    Modrinth: "https://modrinth.com/mod/expore"
+    },
     "Expanded Delight": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/expanded-delight",
     Modrinth: "https://modrinth.com/mod/expanded-delight"
@@ -492,10 +492,6 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gems-jewels",
     Modrinth: null
     },
-    "GemsPlusPlus": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gemsplusplus",
-    Modrinth: "https://modrinth.com/mod/gemsplusplus"
-    },
     "GeOre": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/geore",
     Modrinth: null
@@ -519,6 +515,10 @@ const SupportedMods = {
     "Hazen 'N Stuff": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/hazen-n-stuff",
     Modrinth: null
+    },
+    "Hivecraft: An Alternia Addon for Minestuck": {
+    CurseForge: null,
+    Modrinth: "https://modrinth.com/mod/hivecraft"
     },
     "Ice and Fire: Dragons": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons",
@@ -1135,10 +1135,6 @@ const SupportedMods = {
     "Wizard's Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wizards-reborn",
     Modrinth: "https://modrinth.com/mod/wizards-reborn"
-    },
-    "Wyrmroost": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wyrmroost",
-    Modrinth: "https://modrinth.com/mod/wyrmroost"
     },
     "Yet Just Another Silver": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/yetjustanothersilver",
