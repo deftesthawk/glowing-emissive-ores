@@ -847,13 +847,21 @@ input[type="search"]:hover {
   margin-bottom: 1.35rem;
 }
 
-.troubleshooting-list li {
+.troubleshooting-list > li {
   padding: 0.35rem 0 0.7rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.troubleshooting-list li:last-child {
+.troubleshooting-list > li:last-child {
   border-bottom: 0;
+}
+
+.troubleshooting-list ul {
+  margin: 0.55rem 0 0;
+}
+
+.troubleshooting-list ul li:last-child {
+  margin-bottom: 0;
 }
 
 .support-links {
@@ -1059,6 +1067,11 @@ input[type="search"]:hover {
 
 html[data-geo-variant="mod"] .mod-only {
   display: block !important;
+}
+
+html[data-geo-variant="mod"] .help-section.mod-only {
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 html[data-geo-variant="mod"] .page-tabs {

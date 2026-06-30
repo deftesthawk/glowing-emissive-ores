@@ -114,7 +114,7 @@ html:not(.styles-ready) .page-content {
   object-fit: contain;
 }
 </style>
-<link fetchpriority="high" href="../styles.css?v=19" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<link fetchpriority="high" href="../styles.css?v=20" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
 <noscript><style>
 html:not(.styles-ready) .skip-link,
 html:not(.styles-ready) .site-toolbar-wrap,
@@ -155,9 +155,21 @@ html:not(.styles-ready) .page-content {
 <h1>Help</h1>
 <p class="resource-pack-only">Find help with choosing the correct requirements and fixing common problems.</p>
 </section>
-<div class="support-links mod-only">
+<section aria-labelledby="mod-troubleshooting-title" class="help-section mod-only">
+<h2 id="mod-troubleshooting-title">Troubleshooting</h2>
+<ul class="troubleshooting-list">
+<li><strong>The ores aren't glowing:</strong>
+<ul>
+<li>If you are using shaders, look for a setting named <em>Floodfill</em> and disable it.</li>
+<li>If you are using a version of Sodium below 0.6, install <a data-mod="Indium" href="https://www.curseforge.com/minecraft/mc-mods/indium" rel="noopener noreferrer" target="_blank">Indium</a> to add support for the Fabric Rendering API.</li>
+<li>Sodium 0.6 and newer include this support natively, so Indium is not needed.</li>
+</ul>
+</li>
+</ul>
+<div class="support-links">
 <p>Leave a comment on the <a data-mod-href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" data-resource-pack-href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores/comments" href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" rel="nofollow noopener noreferrer" target="_blank">CurseForge page</a> or join the <a href="https://discord.gg/vwv6dWZcK2" rel="nofollow noopener noreferrer" target="_blank">Discord server</a> for support.</p>
 </div>
+</section>
 <section aria-labelledby="instructions-title" class="help-section resource-pack-only">
 <h2 id="instructions-title">Instructions</h2>
 <p>There are currently four Minecraft modloaders: NeoForge, Forge, Fabric, and Quilt. You need different requirements depending on the modloader and Minecraft version you use. Every valid combination is listed in the Requirements tab.</p>
