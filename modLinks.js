@@ -108,6 +108,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ato",
         Modrinth: null,
     },
+    "Amy's Soda Mod": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/shinyys-soda-mod",
+    Modrinth: "https://modrinth.com/mod/amys-soda-mod"
+    },
     "Ancient Aether": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ancient-aether",
         Modrinth: "https://modrinth.com/mod/ancient-aether"
@@ -178,11 +182,15 @@ const SupportedMods = {
     },
     "Born in Chaos": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/born-in-chaos",
-    Modrinth: null
+    Modrinth: "https://modrinth.com/mod/borninchaos"
     },
     "Bronze": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/bronze-mod",
     Modrinth: "https://modrinth.com/mod/bronze"
+    },
+    "Buddycards": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/buddycards",
+    Modrinth: "https://modrinth.com/mod/buddycards"
     },
     "Butchery": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/butchery",
@@ -198,6 +206,10 @@ const SupportedMods = {
     },
     "Celestisynth: Wishes and Hells": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/celestisynth",
+    Modrinth: null
+    },
+    "ChinjufuMod +JapaneseBlock": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/chinjufumod",
     Modrinth: null
     },
     "Cinderscapes": {
@@ -420,6 +432,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/epic-paladins",
     Modrinth: null
     },
+    "Etcetera": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/etcetera",
+    Modrinth: "https://modrinth.com/mod/etcetera"
+    },
     "Eternal Starlight": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/eternal-starlight",
     Modrinth: "https://modrinth.com/mod/eternal-starlight"
@@ -508,6 +524,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gobber-fabric",
     Modrinth: null
     },
+    "Good Night's Sleep": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/good-nights-sleep",
+    Modrinth: null
+    },
     "Grim & Bleak (semi-Horror)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/grim-bleak",
     Modrinth: "https://modrinth.com/mod/grim-and-bleak"
@@ -519,6 +539,10 @@ const SupportedMods = {
     "Hivecraft: An Alternia Addon for Minestuck": {
     CurseForge: null,
     Modrinth: "https://modrinth.com/mod/hivecraft"
+    },
+    "Horrrs Pvz": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/horrrs-pvz",
+    Modrinth: null
     },
     "Ice and Fire: Dragons": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons",
@@ -539,6 +563,14 @@ const SupportedMods = {
     "Industrial Upgrade": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/industrial-upgrade",
     Modrinth: "https://modrinth.com/mod/industrialupgrade"
+    },
+    "Infernal Expansion": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/infernal-expansion",
+    Modrinth: "https://modrinth.com/mod/infernal-expansion"
+    },
+    "Infernal Expansion Redux": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/infernal-expansion-redux",
+    Modrinth: "https://modrinth.com/mod/infernal-expansion-redux"
     },
     "Iron's Spells 'n Spellbooks": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks",
@@ -843,6 +875,10 @@ const SupportedMods = {
     "RayvaxMod:More Ores": {
     CurseForge: null,
     Modrinth: "https://modrinth.com/mod/rayvaxmodmore_ores"
+    },
+    "Rediscovered": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rediscovered",
+    Modrinth: "https://modrinth.com/mod/rediscovered"
     },
     "Resource Nether Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/resource-nether-ores",
