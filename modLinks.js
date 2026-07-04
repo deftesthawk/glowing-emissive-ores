@@ -140,6 +140,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ascension-megamons",
         Modrinth: "https://modrinth.com/mod/ascension-megamons"
     },
+    "Astral Dimension": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/astral-dimension",
+        Modrinth: null
+    },
     "Basic End Ores": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/basic-end-ores",
         Modrinth: null,
@@ -359,6 +363,10 @@ const SupportedMods = {
     "Diamethysts!": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/diamethysts",
     Modrinth: "https://modrinth.com/mod/diamethysts!"
+    },
+    "Dimensional Pockets II": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/dimensional-pockets-ii",
+        Modrinth: "https://modrinth.com/mod/dimensional-pockets-ii"
     },
     "DivineRPG": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/official-divinerpg",
@@ -735,6 +743,10 @@ const SupportedMods = {
     "Mythic Metals": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythicmetals",
     Modrinth: "https://modrinth.com/mod/mythicmetals"
+    },
+    "Mythical Metals": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythical-metals",
+    Modrinth: null
     },
     "Mythic Upgrades": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythic-upgrades",

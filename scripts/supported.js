@@ -1,8 +1,82 @@
 'use strict';
 
-const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV1';
+const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV2';
 const MODRINTH_PROJECT_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 const MODRINTH_BATCH_SIZE = 50;
+
+const CURSEFORGE_DESCRIPTIONS = Object.freeze({
+  "All The Modium": "Adds powerful endgame ores, gear, and items.",
+  "All The Ores": "Unifies common ores to reduce overlap between mods.",
+  "Armamentarium": "Adds more than 40 mythical weapons with unique abilities and progression.",
+  "Astral Dimension": "Adds two magical dimensions shaped by a multidimensional being.",
+  "Basic End Ores": "Spawns vanilla and modded ores throughout the End.",
+  "BBL Utility": "Adds utility blocks for automation, fluids, and resource generation.",
+  "Better End Potato Edition": "Expands the End with new biomes, structures, and bug fixes.",
+  "Bexla's Enhanced Ores": "An ore expansion mod succeeded by Orevolution.",
+  "Bigger Reactors": "Continues Big Reactors with large multiblock power systems.",
+  "Celestisynth: Wishes and Hells": "Adds celestial weapons with powerful abilities and striking visuals.",
+  "ChinjufuMod +JapaneseBlock": "Adds Japanese-inspired blocks, furniture, crops, and food.",
+  "Clanging Howl": "Adds extraterrestrial technology and terrifying techno-flesh creatures.",
+  "Clustore": "Adds a new ore that drops random items.",
+  "Craft Spawn Eggs & Spawners": "Makes spawn eggs, spawners, and trial spawners craftable.",
+  "Dungeons And Combat": "Expands adventure and RPG gameplay with combat-focused content.",
+  "Easy Steel & More": "Adds vanilla-friendly metals and gear between stone and diamond.",
+  "End Ores": "Adds vanilla ores to the Nether and the End.",
+  "Epic Paladins": "Adds powerful armour, tools, bosses, and custom 3D models.",
+  "ExtraResources": "Adds a mixture of technological and fantastical resources.",
+  "Feywild": "Adds a magical realm inhabited by fey creatures.",
+  "FTB Materials": "Provides a broad collection of configurable resources and materials.",
+  "Gems & Jewels": "Adds many gems, ores, equipment, crystals, and villager features.",
+  "GeOre": "Reworks resource gathering around geode-style ore generation.",
+  "Gobber [NeoForge/Forge]": "Adds powerful ores for high-end gear and special items.",
+  "Gobber [Fabric]": "Adds powerful ores for high-end gear and special items.",
+  "Good Night's Sleep": "Adds dream dimensions that can be explored while sleeping.",
+  "Hazen 'N Stuff": "Adds armour, curios, and equipment for Iron's Spells 'n Spellbooks.",
+  "Horrrs Pvz": "Adds Plants vs. Zombies-inspired plants, enemies, and gameplay.",
+  "Iter RPG": "Adds RPG progression, enemies, equipment, and adventure content.",
+  "Laudividni's Discs": "Adds original music discs created by Laudividni.",
+  "Levia's Beryls": "Adds aquamarine, heliodor, morganite, goshenite, and red beryl.",
+  "Levia's Corundums": "Adds rubies, sapphires, and armour with special powers.",
+  "Levia's Garnets": "Adds six varieties of garnet as mineable minerals.",
+  "Levia's Metals": "Adds aluminium, platinum, titanium, chromium, and tungsten.",
+  "Levia's Quartzes": "Adds six quartz varieties as shards and geodes.",
+  "Macabre - Call of False Prophets": "Adds a gruesome dimension with difficult enemies and valuable rewards.",
+  "Maiden's Marvelous Materials": "Adds decorative building blocks and colourful new trees.",
+  "MC-Extended: Vanilla+": "Adds new gear tiers, foods, entities, and other vanilla-style content.",
+  "Minestuck": "Brings Homestuck-inspired mechanics and content to Minecraft.",
+  "Mofu's better end / Mofu's Broken Constellation": "Adds story-driven dimensions that expand Minecraft lore and progression.",
+  "More Gems": "Adds ten gem-based equipment sets, enchantments, weapons, and more.",
+  "More Metals II": "Adds additional metals and gives them practical uses.",
+  "mOres Reloaded": "Adds vanilla-style ores, tools, weapons, shields, and armour.",
+  "Mythical Metals": "Adds six metals with unique effects and uses.",
+  "Nether Ores Plus+": "Adds ore variants for netherrack, basalt, and blackstone.",
+  "Netherific": "Expands the Nether with new mechanics, blocks, items, and mobs.",
+  "Ores Above Diamonds": "Adds rare, configurable amethyst and black opal ores.",
+  "Ores and Metals": "Adds RuneScape-inspired ores, metals, tools, and armour.",
+  "Phayriosis Parasite Infection": "Adds a large horror-themed infection and zombie-apocalypse experience.",
+  "Potassium & Sulfur's Gunpowder": "Adds vanilla-friendly gunpowder crafting and new uses for gunpowder.",
+  "Project Red - Exploration": "Adds exploration-focused content for the Project Red series.",
+  "Psychedelic Drug Chemistry": "Adds chemistry-themed psychedelic content and resource processing.",
+  "RandomOre": "Adds an ore that drops a random item when mined.",
+  "Riordan Craft (Percy Jackson)": "Adds content inspired by the Percy Jackson series.",
+  "Roost 2: Flying Higher": "Adds an ancient bird mount for travelling through the world.",
+  "Silent Gear Compat": "Adds Silent Gear compatibility and unique materials for other mods.",
+  "Simple Metals: Aluminum": "Adds straightforward aluminium ore generation.",
+  "Simple Metals: Platinum": "Adds straightforward platinum ore generation.",
+  "Simple Metals: Tin": "Adds straightforward tin ore generation.",
+  "Solar Craft": "Adds magic progression based around harnessing the power of nature.",
+  "Spelunking Master": "Adds compatibility between Mining Master and Spelunkery.",
+  "Tech Reborn": "Adds machines, tools, resource processing, and extensive technology progression.",
+  "The Indigo": "Adds an alien dimension with new biomes, structures, and exploration.",
+  "The Twilight Forest": "Adds a mysterious adventure dimension filled with creatures and bosses.",
+  "The Vault Mod (Standalone)": "Adds vault exploration, loot progression, bosses, and collectible artifacts.",
+  "Tierify Ores": "Adds Tierify materials to natural ore generation.",
+  "Treasure2": "Adds treasure chests, keys, loot, and exploration-focused world generation.",
+  "Unearthed": "Adds configurable underground stone, ore generation, and improved caves.",
+  "Voidscape": "Adds a dangerous dimension deep within the Void.",
+  "Warriors of Past Epoch": "Adds themed armour, mobs, structures, and unique equipment properties.",
+  "ZYCraft": "Recreates the style and features of XyCraft for modern Minecraft."
+});
 
 const supportedSearch = document.getElementById('supportedSearch');
 const supportedCount = document.getElementById('supportedCount');
@@ -129,12 +203,18 @@ function createSupportedCard(entry) {
   title.textContent = entry.name;
   copy.appendChild(title);
 
-  const description = document.createElement('span');
-  description.className = 'mod-description';
-  description.textContent = entry.name === 'Vanilla'
+  const descriptionText = entry.name === 'Vanilla'
     ? 'Built-in Minecraft ores'
-    : (slug && modrinthProjects[slug]?.description) || 'Included in the supported texture list';
-  copy.appendChild(description);
+    : (slug && modrinthProjects[slug]?.description)
+      || CURSEFORGE_DESCRIPTIONS[entry.name]
+      || '';
+
+  if (descriptionText) {
+    const description = document.createElement('span');
+    description.className = 'mod-description';
+    description.textContent = descriptionText;
+    copy.appendChild(description);
+  }
   container.appendChild(copy);
 
   if (details) {
