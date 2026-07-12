@@ -404,6 +404,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/end-ores",
     Modrinth: null
     },
+    "Endelurgy": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/endelurgy",
+    Modrinth: "https://modrinth.com/mod/endelurgy"
+    },
     "End Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/end-reborn-mc",
     Modrinth: "https://modrinth.com/mod/end-reborn"
@@ -768,6 +772,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/netherific",
     Modrinth: null
     },
+    "Nethelurgy": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nethelurgy",
+    Modrinth: "https://modrinth.com/mod/nethelurgy"
+    },
     "NuclearCraft: Neoteric": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-neoteric",
     Modrinth: "https://modrinth.com/mod/nuclearcraft-neoteric"
@@ -884,6 +892,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/randomore",
     Modrinth: null
     },
+    "Rats": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/rats",
+    Modrinth: "https://modrinth.com/mod/rats"
+    },
     "RayvaxMod:More Ores": {
     CurseForge: null,
     Modrinth: "https://modrinth.com/mod/rayvaxmodmore_ores"
@@ -979,6 +991,10 @@ const SupportedMods = {
     "Skniro's Nether and End Ores": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skniros-nether-end-ores",
     Modrinth: "https://modrinth.com/mod/skniros-nether-end-ores"
+    },
+    "Skarrier Mobs": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skarrier-mobs",
+    Modrinth: null
     },
     "Sky's Netherite Ore Remined": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/skys-netherite-ore-remined",

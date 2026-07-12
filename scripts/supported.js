@@ -1,6 +1,6 @@
 'use strict';
 
-const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV2';
+const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV3';
 const MODRINTH_PROJECT_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 const MODRINTH_BATCH_SIZE = 50;
 
@@ -64,6 +64,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Simple Metals: Aluminum": "Adds straightforward aluminium ore generation.",
   "Simple Metals: Platinum": "Adds straightforward platinum ore generation.",
   "Simple Metals: Tin": "Adds straightforward tin ore generation.",
+  "Skarrier Mobs": "Adds unique dangerous mobs with vanilla-style mechanics and challenging encounters.",
   "Solar Craft": "Adds magic progression based around harnessing the power of nature.",
   "Spelunking Master": "Adds compatibility between Mining Master and Spelunkery.",
   "Tech Reborn": "Adds machines, tools, resource processing, and extensive technology progression.",

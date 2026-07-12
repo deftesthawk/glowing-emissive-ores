@@ -60,6 +60,7 @@ window.CurseForgeIcons = Object.freeze({
   'Riordan Craft (Percy Jackson)': 'https://media.forgecdn.net/avatars/thumbnails/1131/717/64/64/638691355808390022.png',
   'Roost 2: Flying Higher': 'https://media.forgecdn.net/avatars/thumbnails/1103/631/64/64/638652207473312069.png',
   'Silent Gear Compat': 'https://media.forgecdn.net/avatars/thumbnails/629/689/64/64/638027880275950355.png',
+  'Skarrier Mobs': 'https://media.forgecdn.net/avatars/thumbnails/1848/448/64/64/639162914088817550.png',
   'Simple Metals: Aluminum': 'https://media.forgecdn.net/avatars/thumbnails/947/386/64/64/638433746115839316.png',
   'Simple Metals: Platinum': 'https://media.forgecdn.net/avatars/thumbnails/915/935/64/64/638374244365444723.png',
   'Simple Metals: Tin': 'https://media.forgecdn.net/avatars/thumbnails/839/922/64/64/638233337165441906.png',
