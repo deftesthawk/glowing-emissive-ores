@@ -1,6 +1,6 @@
 'use strict';
 
-const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV3';
+const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV4';
 const MODRINTH_PROJECT_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 const MODRINTH_BATCH_SIZE = 50;
 
@@ -26,6 +26,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "ExtraResources": "Adds a mixture of technological and fantastical resources.",
   "Feywild": "Adds a magical realm inhabited by fey creatures.",
   "FTB Materials": "Provides a broad collection of configurable resources and materials.",
+  "Galacticraft Boobcat Edition": "An unofficial Galacticraft fork with expanded planets, space weather, vehicles, machines, bosses, and dungeons.",
   "Gems & Jewels": "Adds many gems, ores, equipment, crystals, and villager features.",
   "GeOre": "Reworks resource gathering around geode-style ore generation.",
   "Gobber [NeoForge/Forge]": "Adds powerful ores for high-end gear and special items.",
@@ -49,6 +50,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "More Metals II": "Adds additional metals and gives them practical uses.",
   "mOres Reloaded": "Adds vanilla-style ores, tools, weapons, shields, and armour.",
   "Mythical Metals": "Adds six metals with unique effects and uses.",
+  "Mythic Tinkers": "Adds Tinkers' Construct support for Alex's Caves and six powerful endgame materials.",
   "Nether Ores Plus+": "Adds ore variants for netherrack, basalt, and blackstone.",
   "Netherific": "Expands the Nether with new mechanics, blocks, items, and mobs.",
   "Ores Above Diamonds": "Adds rare, configurable amethyst and black opal ores.",
@@ -67,11 +69,13 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Skarrier Mobs": "Adds unique dangerous mobs with vanilla-style mechanics and challenging encounters.",
   "Solar Craft": "Adds magic progression based around harnessing the power of nature.",
   "Spelunking Master": "Adds compatibility between Mining Master and Spelunkery.",
+  "Stalwart Dungeons": "Adds challenging Nether and End dungeons with bosses, relics, ores, and equipment.",
   "Tech Reborn": "Adds machines, tools, resource processing, and extensive technology progression.",
   "The Indigo": "Adds an alien dimension with new biomes, structures, and exploration.",
   "The Twilight Forest": "Adds a mysterious adventure dimension filled with creatures and bosses.",
   "The Vault Mod (Standalone)": "Adds vault exploration, loot progression, bosses, and collectible artifacts.",
   "Tierify Ores": "Adds Tierify materials to natural ore generation.",
+  "Tinkers' Innovation": "Expands Tinkers' Construct with new materials, modifiers, and tools.",
   "Treasure2": "Adds treasure chests, keys, loot, and exploration-focused world generation.",
   "Unearthed": "Adds configurable underground stone, ore generation, and improved caves.",
   "Voidscape": "Adds a dangerous dimension deep within the Void.",

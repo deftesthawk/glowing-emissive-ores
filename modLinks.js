@@ -508,6 +508,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ftb-materials",
     Modrinth: null
     },
+    "Galacticraft Boobcat Edition": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/galacticraft-boobcat-edition",
+    Modrinth: null
+    },
     "Galosphere": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/galosphere",
     Modrinth: "https://modrinth.com/mod/galosphere"
@@ -747,6 +751,10 @@ const SupportedMods = {
     "Mythic Metals": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythicmetals",
     Modrinth: "https://modrinth.com/mod/mythicmetals"
+    },
+    "Mythic Tinkers": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythic-tinkers",
+    Modrinth: "https://modrinth.com/mod/mythic-tinkers"
     },
     "Mythical Metals": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mythical-metals",
@@ -1028,6 +1036,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stal-alloys",
     Modrinth: "https://modrinth.com/mod/stal-alloys"
     },
+    "Stalwart Dungeons": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stalwart-dungeons",
+    Modrinth: "https://modrinth.com/mod/stalwart-dungeons"
+    },
     "Star Wars Planet Stellaris": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/star-wars-planet-stellaris",
     Modrinth: "https://modrinth.com/mod/star-wars-planet-stellaris"
@@ -1147,6 +1159,10 @@ const SupportedMods = {
     "Tinkers Construct": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
     Modrinth: "https://modrinth.com/mod/tinkers-construct"
+    },
+    "Tinkers' Innovation": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tinkers-innovation",
+    Modrinth: "https://modrinth.com/mod/tinkersinnovation"
     },
     "Treasure2": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/treasure2",
