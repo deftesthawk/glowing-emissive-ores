@@ -114,7 +114,7 @@ html:not(.styles-ready) .page-content {
   object-fit: contain;
 }
 </style>
-<link fetchpriority="high" href="../styles.css?v=20" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
+<link fetchpriority="high" href="../styles.css?v=22" onerror="document.documentElement.classList.add('styles-ready')" onload="document.documentElement.classList.add('styles-ready')" rel="stylesheet"/>
 <noscript><style>
 html:not(.styles-ready) .skip-link,
 html:not(.styles-ready) .site-toolbar-wrap,
@@ -166,6 +166,22 @@ html:not(.styles-ready) .page-content {
 </ul>
 </li>
 </ul>
+</section>
+<section aria-labelledby="mod-faq-title" class="help-section mod-only mod-help-final">
+<h2 id="mod-faq-title">Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>What is the difference between the mod and resource pack versions?</h3>
+<p>The mod only loads assets for the mods you have installed, which greatly reduces loading times compared to the resource pack version. It also includes an in-game config for adjusting emissive brightness and disabling individual ores, and does not require a separate emissive texture mod.</p>
+</div>
+<div class="faq-item">
+<h3>Is the mod compatible with resource packs that change ore textures?</h3>
+<p>The mod's resources take priority, so texture changes from other resource packs are ignored for ores supported by GEO. This prevents texture mismatching issues.</p>
+</div>
+<div class="faq-item">
+<h3>Does the mod affect performance?</h3>
+<p>FPS impact should be negligible in normal gameplay. GEO is designed to avoid runtime scanning, so most of the work happens during loading and resource reloads, and that side has been heavily optimized too.</p>
+<p>The only time FPS impact may become noticeable is if a huge number of supported emissive ore blocks are visible at once, because those blocks have extra emissive overlay rendering. This is similar to many other Minecraft rendering cases, such as having lots of transparent blocks, particles, or entities on screen.</p>
+</div>
 <div class="support-links">
 <p>Leave a comment on the <a data-mod-href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" data-resource-pack-href="https://www.curseforge.com/minecraft/texture-packs/glowing-emissive-ores/comments" href="https://www.curseforge.com/minecraft/mc-mods/glowing-emissive-ores-definitive-edition/comments" rel="nofollow noopener noreferrer" target="_blank">CurseForge page</a> or join the <a href="https://discord.gg/vwv6dWZcK2" rel="nofollow noopener noreferrer" target="_blank">Discord server</a> for support.</p>
 </div>
@@ -198,7 +214,7 @@ html:not(.styles-ready) .page-content {
 </div>
 </section>
 </main>
-<script defer="" src="../modLinks.js?v=24"></script>
+<script defer="" src="../modLinks.js?v=26"></script>
 <script defer="" src="../scripts/common.js?v=20"></script>
 </body>
 </html>

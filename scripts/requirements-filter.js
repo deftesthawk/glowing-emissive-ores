@@ -29,7 +29,16 @@ const resultConditions = [
     ]
   },
   { id: 'continuityForgeResult', loader: 'forge', versions: ['1.20.1'] },
-  { id: 'continuityNeoForgeResult', loader: 'neoforge', versions: ['1.21.1', '1.21'] },
+  {
+    id: 'neoContinuityNeoForgeResult',
+    loader: 'neoforge',
+    versions: ['26.2', '26.1.2', '26.1.1', '26.1', '1.21.1', '1.21']
+  },
+  {
+    id: 'continuityNeoForgeResult',
+    loader: 'neoforge',
+    versions: ['26.1.2', '1.21.1', '1.21']
+  },
   {
     id: 'moreMCMetaFabricResult',
     loader: 'fabric',

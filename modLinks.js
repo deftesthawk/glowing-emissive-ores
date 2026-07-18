@@ -17,6 +17,10 @@ const ModLinks = {
       CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sinytra-connector",
       Modrinth: "https://modrinth.com/mod/connector"
     },
+    "NeoContinuity": {
+      CurseForge: "https://www.curseforge.com/minecraft/mc-mods/neocontinuity",
+      Modrinth: "https://modrinth.com/mod/neocontinuity"
+    },
     "Sodium": {
       CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sodium",
       Modrinth: "https://modrinth.com/mod/sodium"
