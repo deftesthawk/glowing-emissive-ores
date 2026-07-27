@@ -79,5 +79,6 @@ window.CurseForgeIcons = Object.freeze({
   'Unearthed': 'https://media.forgecdn.net/avatars/thumbnails/345/256/256/256/637492547562298213.png',
   'Voidscape': 'https://media.forgecdn.net/avatars/thumbnails/884/462/64/64/638318694008176397.png',
   'Warriors of Past Epoch': 'https://media.forgecdn.net/avatars/thumbnails/1004/861/64/64/638526083319055490.png',
+  'Zombie Extreme': 'https://media.forgecdn.net/avatars/thumbnails/282/908/64/64/637291104038043626.png',
   'ZYCraft': 'https://media.forgecdn.net/avatars/thumbnails/296/776/64/64/637341991584167776_animated.gif',
 });

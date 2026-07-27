@@ -1224,6 +1224,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/yetjustanothersilver",
     Modrinth: "https://modrinth.com/mod/yetjustanothersilver"
     },
+    "Zombie Extreme": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/zombie-extreme",
+    Modrinth: null
+    },
     "ZYCraft": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/zycraft",
     Modrinth: null

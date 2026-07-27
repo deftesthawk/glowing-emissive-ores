@@ -80,6 +80,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Unearthed": "Adds configurable underground stone, ore generation, and improved caves.",
   "Voidscape": "Adds a dangerous dimension deep within the Void.",
   "Warriors of Past Epoch": "Adds themed armour, mobs, structures, and unique equipment properties.",
+  "Zombie Extreme": "Adds apocalypse mechanics, structures, loot, armour, weapons, and many zombie and infected variants.",
   "ZYCraft": "Recreates the style and features of XyCraft for modern Minecraft."
 });
 
