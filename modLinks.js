@@ -444,6 +444,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/enviromine-lite",
     Modrinth: "https://modrinth.com/mod/enviromine-lite"
     },
+    "Epic Knights: Ores and Alloys": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/epic-knights-ores-and-alloys",
+    Modrinth: null
+    },
     "Epic Paladins": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/epic-paladins",
     Modrinth: null
@@ -527,6 +531,10 @@ const SupportedMods = {
     "Gems & Jewels": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gems-jewels",
     Modrinth: null
+    },
+    "Gems and Crystals": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/gems-and-crystals",
+    Modrinth: "https://modrinth.com/mod/gems-and-crystals"
     },
     "GeOre": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/geore",
@@ -1080,6 +1088,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/superior-ores",
     Modrinth: "https://modrinth.com/mod/superior-ores"
     },
+    "Survival Instinct": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/survival-instinct",
+    Modrinth: "https://modrinth.com/mod/survival-instinct"
+    },
     "Tech Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/techreborn",
     Modrinth: null
@@ -1179,6 +1191,10 @@ const SupportedMods = {
     "Unearthed": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/unearthed",
     Modrinth: null
+    },
+    "Uniful": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/uniful",
+    Modrinth: "https://modrinth.com/mod/uniful"
     },
     "Universal Ores": {
     CurseForge: "https://curseforge.com/minecraft/mc-mods/universal-ores-fabric",
