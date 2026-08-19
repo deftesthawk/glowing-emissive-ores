@@ -5,6 +5,7 @@ const MODRINTH_PROJECT_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 const MODRINTH_BATCH_SIZE = 50;
 
 const CURSEFORGE_DESCRIPTIONS = Object.freeze({
+  "Aether's Delight": "Adds compatibility between The Aether and Farmer's Delight with new crops, foods, dishes, and decorational blocks.",
   "All The Modium": "Adds powerful endgame ores, gear, and items.",
   "All The Ores": "Unifies common ores to reduce overlap between mods.",
   "Armamentarium": "Adds more than 40 mythical weapons with unique abilities and progression.",
@@ -18,6 +19,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "ChinjufuMod +JapaneseBlock": "Adds Japanese-inspired blocks, furniture, crops, and food.",
   "Clanging Howl": "Adds extraterrestrial technology and terrifying techno-flesh creatures.",
   "Clustore": "Adds a new ore that drops random items.",
+  "Clockwork": "Combines Create contraptions with Valkyrien Skies physics for magical machinery, exploration, and transportation.",
   "Craft Spawn Eggs & Spawners": "Makes spawn eggs, spawners, and trial spawners craftable.",
   "Dungeons And Combat": "Expands adventure and RPG gameplay with combat-focused content.",
   "Easy Steel & More": "Adds vanilla-friendly metals and gear between stone and diamond.",
@@ -57,6 +59,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Netherific": "Expands the Nether with new mechanics, blocks, items, and mobs.",
   "Ores Above Diamonds": "Adds rare, configurable amethyst and black opal ores.",
   "Ores and Metals": "Adds RuneScape-inspired ores, metals, tools, and armour.",
+  "One and Only": "Overhauls deserts and badlands with new wood sets, foods, decorative blocks, mobs, and Illumina ore.",
   "Phayriosis Parasite Infection": "Adds a large horror-themed infection and zombie-apocalypse experience.",
   "Potassium & Sulfur's Gunpowder": "Adds vanilla-friendly gunpowder crafting and new uses for gunpowder.",
   "Project Red - Exploration": "Adds exploration-focused content for the Project Red series.",
@@ -75,6 +78,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Survival Instinct": "Adds apocalyptic structures, minerals, military equipment, weapons, and survival content.",
   "Tech Reborn": "Adds machines, tools, resource processing, and extensive technology progression.",
   "The Indigo": "Adds an alien dimension with new biomes, structures, and exploration.",
+  "The Silver Age": "Adds oxidizable silver, decorative blocks, tools, armour, silver ore, loot, trading, and mod compatibility.",
   "The Twilight Forest": "Adds a mysterious adventure dimension filled with creatures and bosses.",
   "The Vault Mod (Standalone)": "Adds vault exploration, loot progression, bosses, and collectible artifacts.",
   "Tierify Ores": "Adds Tierify materials to natural ore generation.",

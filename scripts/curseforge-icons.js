@@ -3,6 +3,7 @@
 // Static fallback icons for supported projects that do not have a Modrinth page.
 window.CurseForgeIcons = Object.freeze({
   'Vanilla': '../assets/minecraft-vanilla.png',
+  'Aether\'s Delight': 'https://cdn.modrinth.com/data/XUztKPS9/788ee6bf6486b1af8e3c469c7398a80702d8a321.png',
   'All The Modium': 'https://media.forgecdn.net/avatars/thumbnails/286/497/64/64/637304628252222438.png',
   'All The Ores': 'https://media.forgecdn.net/avatars/thumbnails/297/396/64/64/637344417617385107.jpeg',
   'Armamentarium': 'https://media.forgecdn.net/avatars/thumbnails/1295/944/64/64/638842352714753006.png',
@@ -17,6 +18,7 @@ window.CurseForgeIcons = Object.freeze({
   'ChinjufuMod +JapaneseBlock': 'https://media.forgecdn.net/avatars/thumbnails/179/77/64/64/636783181852476359.jpeg',
   'Clanging Howl': 'https://media.forgecdn.net/avatars/thumbnails/1483/340/64/64/638964105673417786.png',
   'Clustore': 'https://media.forgecdn.net/avatars/thumbnails/940/344/64/64/638420747619298627.png',
+  'Clockwork': 'https://cdn.modrinth.com/data/84USeAvk/67845a9b26e18a5e6649db981aa661e5786e101b_96.webp',
   'Craft Spawn Eggs & Spawners': 'https://media.forgecdn.net/avatars/thumbnails/1690/30/64/64/639072853631936677.png',
   'Dungeons And Combat': 'https://media.forgecdn.net/avatars/thumbnails/1149/19/64/64/638716122315634730.png',
   'Easy Steel & More': 'https://media.forgecdn.net/avatars/thumbnails/250/580/64/64/637179355934597485.png',
@@ -56,6 +58,7 @@ window.CurseForgeIcons = Object.freeze({
   'Netherific': 'https://media.forgecdn.net/avatars/thumbnails/802/391/64/64/638167030108762994.png',
   'Ores Above Diamonds': 'https://media.forgecdn.net/avatars/thumbnails/271/196/64/64/637247461768157337.png',
   'Ores and Metals': 'https://media.forgecdn.net/avatars/thumbnails/451/74/64/64/637712834706686547.png',
+  'One and Only': 'https://cdn.modrinth.com/data/hQWHLNBE/8399f5f1fbe2832c97ddbb3d0362cee1c80ba88f_96.webp',
   'Phayriosis Parasite Infection': 'https://media.forgecdn.net/avatars/thumbnails/1819/686/64/64/639149810215158401.png',
   'Potassium & Sulfur\'s Gunpowder': 'https://media.forgecdn.net/avatars/thumbnails/496/518/64/64/637811349909368419.jpeg',
   'Project Red - Exploration': 'https://media.forgecdn.net/avatars/thumbnails/1165/335/64/64/638735201193216038.png',
@@ -74,6 +77,7 @@ window.CurseForgeIcons = Object.freeze({
   'Survival Instinct': 'https://cdn.modrinth.com/data/qs326NDd/2d3d2a1d81c1b8a1b62996f0a9b379bb85bf86aa.png',
   'Tech Reborn': 'https://media.forgecdn.net/avatars/thumbnails/169/440/64/64/636715176146379845.png',
   'The Indigo': 'https://media.forgecdn.net/avatars/thumbnails/1082/187/64/64/638622422521397462.png',
+  'The Silver Age': 'https://cdn.modrinth.com/data/LEHsZZ4j/cea34ca52c4a18cd19be540c86f7c65beb30c50d.png',
   'The Twilight Forest': 'https://media.forgecdn.net/avatars/thumbnails/14/212/64/64/635589178760357568.png',
   'The Vault Mod (Standalone)': 'https://media.forgecdn.net/avatars/thumbnails/1739/602/64/64/639107476873939595.png',
   'Tierify Ores': 'https://media.forgecdn.net/avatars/thumbnails/1025/23/64/64/638548351556239997.png',

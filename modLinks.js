@@ -100,6 +100,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/aether-basic-ores",
         Modrinth: "https://modrinth.com/mod/aether-basic-ores"
     },
+    "Aether's Delight": {
+        CurseForge: null,
+        Modrinth: "https://modrinth.com/mod/the-aethers-delight"
+    },
     "Alex's Caves": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
         Modrinth: "https://modrinth.com/mod/alexs-caves"
@@ -227,6 +231,10 @@ const SupportedMods = {
     "Clanging Howl": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clanging-howl",
     Modrinth: null
+    },
+    "Clockwork": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-clockwork",
+    Modrinth: "https://modrinth.com/mod/create-clockwork"
     },
     "Clustore": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/clustore",
@@ -816,6 +824,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric",
     Modrinth: "https://modrinth.com/mod/biomesyougo"
     },
+    "One and Only": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oneandonly",
+    Modrinth: "https://modrinth.com/mod/oneandonly"
+    },
     "Oreganized": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oreganized",
     Modrinth: "https://modrinth.com/mod/oreganized"
@@ -1143,6 +1155,10 @@ const SupportedMods = {
     "The Outer End": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-outer-end",
     Modrinth: "https://modrinth.com/mod/the-outer-end"
+    },
+    "The Silver Age": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-silver-age",
+    Modrinth: "https://modrinth.com/mod/the-silver-age"
     },
     "The Twilight Forest": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
