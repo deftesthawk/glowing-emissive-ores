@@ -668,6 +668,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/lifesteal-mian",
     Modrinth: "https://modrinth.com/mod/lifesteal-mian"
     },
+    "Logistics: Automation": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/logistics-automation",
+    Modrinth: "https://modrinth.com/mod/logistics"
+    },
     "Lucky TNT Mod": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/luckytnt",
     Modrinth: "https://modrinth.com/mod/lucky-tnt-mod"
@@ -1251,6 +1255,10 @@ const SupportedMods = {
     "Wizard's Reborn": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wizards-reborn",
     Modrinth: "https://modrinth.com/mod/wizards-reborn"
+    },
+    "wonderland.jar": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/wonderland-jar",
+    Modrinth: "https://modrinth.com/mod/wonderland-jar"
     },
     "Yet Just Another Silver": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/yetjustanothersilver",

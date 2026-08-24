@@ -1,6 +1,6 @@
 'use strict';
 
-const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV4';
+const MODRINTH_PROJECT_CACHE_KEY = 'geoModrinthProjectsV5';
 const MODRINTH_PROJECT_CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
 const MODRINTH_BATCH_SIZE = 50;
 
@@ -40,6 +40,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Horrrs Pvz": "Adds Plants vs. Zombies-inspired plants, enemies, and gameplay.",
   "Iter RPG": "Adds RPG progression, enemies, equipment, and adventure content.",
   "Laudividni's Discs": "Adds original music discs created by Laudividni.",
+  "Logistics: Automation": "Adds BuildCraft-inspired pipes, routing, visible item transport, and deep logistics automation.",
   "Levia's Beryls": "Adds aquamarine, heliodor, morganite, goshenite, and red beryl.",
   "Levia's Corundums": "Adds rubies, sapphires, and armour with special powers.",
   "Levia's Garnets": "Adds six varieties of garnet as mineable minerals.",
@@ -88,6 +89,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Uniful": "Unifies duplicate metal-related materials across mods into one consistent set of items and blocks.",
   "Voidscape": "Adds a dangerous dimension deep within the Void.",
   "Warriors of Past Epoch": "Adds themed armour, mobs, structures, and unique equipment properties.",
+  "wonderland.jar": "Adds strange anomalies that stalk the player and can drag them into a liminal wonderland.",
   "Zombie Extreme": "Adds apocalypse mechanics, structures, loot, armour, weapons, and many zombie and infected variants.",
   "ZYCraft": "Recreates the style and features of XyCraft for modern Minecraft."
 });

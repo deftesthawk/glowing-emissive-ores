@@ -39,6 +39,7 @@ window.CurseForgeIcons = Object.freeze({
   'Horrrs Pvz': 'https://media.forgecdn.net/avatars/thumbnails/1111/970/64/64/638663919714981341.png',
   'Iter RPG': 'https://media.forgecdn.net/avatars/thumbnails/624/636/64/64/638020616514136127.png',
   'Laudividni\'s Discs': 'https://media.forgecdn.net/avatars/thumbnails/1286/724/64/64/638836829654391659.png',
+  'Logistics: Automation': 'https://cdn.modrinth.com/data/cyW2SS1x/68940695f2fabf38ec404c72a76fbdffa65fcc37_96.webp',
   'Levia\'s Beryls': 'https://media.forgecdn.net/avatars/thumbnails/1124/804/64/64/638681814152544810.PNG',
   'Levia\'s Corundums': 'https://media.forgecdn.net/avatars/thumbnails/1177/165/64/64/638749647020269700.PNG',
   'Levia\'s Garnets': 'https://media.forgecdn.net/avatars/thumbnails/1120/819/64/64/638675879764161053.PNG',
@@ -87,6 +88,7 @@ window.CurseForgeIcons = Object.freeze({
   'Uniful': 'https://cdn.modrinth.com/data/edns7lHB/adde451f42014c44eda2faf77a2c8d697275a80b_96.webp',
   'Voidscape': 'https://media.forgecdn.net/avatars/thumbnails/884/462/64/64/638318694008176397.png',
   'Warriors of Past Epoch': 'https://media.forgecdn.net/avatars/thumbnails/1004/861/64/64/638526083319055490.png',
+  'wonderland.jar': 'https://cdn.modrinth.com/data/IXZPFrP2/1aeb72d5a867b58306045f0f0eba09f5f2922761_96.webp',
   'Zombie Extreme': 'https://media.forgecdn.net/avatars/thumbnails/282/908/64/64/637291104038043626.png',
   'ZYCraft': 'https://media.forgecdn.net/avatars/thumbnails/296/776/64/64/637341991584167776_animated.gif',
 });
