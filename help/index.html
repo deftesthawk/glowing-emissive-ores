@@ -158,9 +158,10 @@ html:not(.styles-ready) .page-content {
 <section aria-labelledby="mod-troubleshooting-title" class="help-section mod-only">
 <h2 id="mod-troubleshooting-title">Troubleshooting</h2>
 <ul class="troubleshooting-list">
-<li><strong>The ores aren't glowing:</strong>
+<li><strong>The ores aren't emissive / glowing:</strong>
 <ul>
 <li>If you are using shaders, look for a setting named <em>Floodfill</em> and disable it.</li>
+<li>If Rubidium is installed, replace it with Embeddium. Rubidium stops emissive models from rendering, whereas Embeddium renders them correctly; the only downside is that ambient occlusion can still shade emissive parts, making them look slightly dimmer than they should.</li>
 <li>If you are using a version of Sodium below 0.6, install <a data-mod="Indium" href="https://www.curseforge.com/minecraft/mc-mods/indium" rel="noopener noreferrer" target="_blank">Indium</a> to add support for the Fabric Rendering API.</li>
 <li>Sodium 0.6 and newer include this support natively, so Indium is not needed.</li>
 </ul>
@@ -206,6 +207,7 @@ html:not(.styles-ready) .page-content {
 <li><strong>The resource pack fails to load and ModernFix is installed:</strong> Open the <code>modernfix-mixins.properties</code> config file and remove the line <code>mixin.perf.dynamic_resources=true</code>.</li>
 <li><strong>The modpack crashes during startup:</strong> Try launching it at least three times, as large modpacks can sometimes crash randomly while starting.</li>
 <li class="resource-pack-only"><strong>The ores are not glowing, or the modpack continues to crash:</strong> Try each available option from the Requirements list until you find one that works with the modpack. If Sinytra Connector is installed, only Fabric options such as Continuity will work.</li>
+<li><strong>The ores are not glowing and Rubidium is installed:</strong> Replace Rubidium with Embeddium. Rubidium stops emissive models from rendering, whereas Embeddium renders them correctly; the only downside is that ambient occlusion can still shade emissive parts, making them look slightly dimmer than they should.</li>
 <li><strong>The ores only glow at certain times or distances while using shaders:</strong> Look for a shader setting named <em>Floodfill</em> and disable it. Alternatively, use a different emissive ores resource pack that supports <em>LabPBR</em>.</li>
 <li class="resource-pack-only"><strong>The ores are flickering:</strong> Older versions of Embeddium, Rubidium, and Sodium cause this issue. MoreMcMeta has a workaround, so use that requirements option when newer versions of these mods are unavailable.</li>
 </ul>
