@@ -128,6 +128,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ancient-elements",
         Modrinth: "https://modrinth.com/mod/ancient-elements-mod"
     },
+    "Antarchy": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/antarchy",
+        Modrinth: "https://modrinth.com/mod/antarchy"
+    },
     "Applied Energistics 2": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
         Modrinth: "https://modrinth.com/mod/ae2"
@@ -719,6 +723,10 @@ const SupportedMods = {
     "Mekanism": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/mekanism",
     Modrinth: "https://modrinth.com/mod/mekanism"
+    },
+    "Metal Works": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/metal-works",
+    Modrinth: "https://modrinth.com/mod/metal-works"
     },
     "Metallic Tinkering": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/metallic-tinkering",
