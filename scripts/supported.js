@@ -6,6 +6,7 @@ const MODRINTH_BATCH_SIZE = 50;
 
 const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Aether's Delight": "Adds compatibility between The Aether and Farmer's Delight with new crops, foods, dishes, and decorational blocks.",
+  "Alex's Mobs Delight": "Adds Alex's Mobs and Farmer's Delight compatibility with many new foods, feasts, crops, effects, knives, and tools.",
   "All The Modium": "Adds powerful endgame ores, gear, and items.",
   "All The Ores": "Unifies common ores to reduce overlap between mods.",
   "Antarchy": "Adds Orespawn-inspired dimensions, mobs, bosses, dungeons, and powerful equipment for modern Minecraft.",
@@ -40,6 +41,7 @@ const CURSEFORGE_DESCRIPTIONS = Object.freeze({
   "Hazen 'N Stuff": "Adds armour, curios, and equipment for Iron's Spells 'n Spellbooks.",
   "Horrrs Pvz": "Adds Plants vs. Zombies-inspired plants, enemies, and gameplay.",
   "Iter RPG": "Adds RPG progression, enemies, equipment, and adventure content.",
+  "Kimetsu no Yaiba (Demon Slayer)": "Adds Demon Slayer-inspired blocks, weapons, characters, biomes, armour, foods, progression, and demon/slayer gameplay.",
   "Laudividni's Discs": "Adds original music discs created by Laudividni.",
   "Logistics: Automation": "Adds BuildCraft-inspired pipes, routing, visible item transport, and deep logistics automation.",
   "Levia's Beryls": "Adds aquamarine, heliodor, morganite, goshenite, and red beryl.",

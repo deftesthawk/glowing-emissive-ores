@@ -4,6 +4,7 @@
 window.CurseForgeIcons = Object.freeze({
   'Vanilla': '../assets/minecraft-vanilla.png',
   'Aether\'s Delight': 'https://cdn.modrinth.com/data/XUztKPS9/788ee6bf6486b1af8e3c469c7398a80702d8a321.png',
+  'Alex\'s Mobs Delight': 'https://media.forgecdn.net/avatars/thumbnails/1714/98/256/256/639089701729376482.png',
   'All The Modium': 'https://media.forgecdn.net/avatars/thumbnails/286/497/64/64/637304628252222438.png',
   'All The Ores': 'https://media.forgecdn.net/avatars/thumbnails/297/396/64/64/637344417617385107.jpeg',
   'Antarchy': 'https://cdn.modrinth.com/data/bnrJEOg5/18b546300bd5263acffeef659b75b9e9b6a4f18b_96.webp',
@@ -39,6 +40,7 @@ window.CurseForgeIcons = Object.freeze({
   'Hazen \'N Stuff': 'https://media.forgecdn.net/avatars/thumbnails/1751/252/64/64/639114587982171329.png',
   'Horrrs Pvz': 'https://media.forgecdn.net/avatars/thumbnails/1111/970/64/64/638663919714981341.png',
   'Iter RPG': 'https://media.forgecdn.net/avatars/thumbnails/624/636/64/64/638020616514136127.png',
+  'Kimetsu no Yaiba (Demon Slayer)': 'https://cdn.modrinth.com/data/N49iwS4X/c77a15c22ab2d7d6553d87988be134bef8f292bb.png',
   'Laudividni\'s Discs': 'https://media.forgecdn.net/avatars/thumbnails/1286/724/64/64/638836829654391659.png',
   'Logistics: Automation': 'https://cdn.modrinth.com/data/cyW2SS1x/68940695f2fabf38ec404c72a76fbdffa65fcc37_96.webp',
   'Levia\'s Beryls': 'https://media.forgecdn.net/avatars/thumbnails/1124/804/64/64/638681814152544810.PNG',

@@ -108,6 +108,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/alexs-caves",
         Modrinth: "https://modrinth.com/mod/alexs-caves"
     },
+    "Alex's Mobs Delight": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs-delight",
+        Modrinth: null
+    },
     "All The Modium": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/allthemodium",
         Modrinth: null,
@@ -619,6 +623,10 @@ const SupportedMods = {
     "Iter RPG": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/iter-rpg",
     Modrinth: null
+    },
+    "Kimetsu no Yaiba (Demon Slayer)": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/demonslayer",
+    Modrinth: "https://modrinth.com/mod/orca-kimetsu-no-yaiba"
     },
     "Jewelry (RPG Series)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/jewelry",
