@@ -148,6 +148,10 @@ const SupportedMods = {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/armamentarium",
         Modrinth: null
     },
+    "Artemis' Overworld Quartz Ore (Forge + Fabric)": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/artemis-overworld-quartz-ore",
+        Modrinth: "https://modrinth.com/mod/overworld-quartz-ore"
+    },
     "Ars Nouveau": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau",
         Modrinth: "https://modrinth.com/mod/ars-nouveau"
@@ -504,6 +508,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/extraresources",
     Modrinth: null
     },
+    "Felsic Gear": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/felsic-gear",
+        Modrinth: null
+    },
     "Extreme Reactors": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/extreme-reactors",
     Modrinth: "https://modrinth.com/mod/extreme-reactors"
@@ -736,6 +744,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/metal-works",
     Modrinth: "https://modrinth.com/mod/metal-works"
     },
+    "Minerdz Quartz": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/minerdz-quartz",
+        Modrinth: "https://modrinth.com/mod/minerdz-quartz"
+    },
     "Metallic Tinkering": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/metallic-tinkering",
     Modrinth: "https://modrinth.com/mod/metallic-tinkering"
@@ -863,6 +875,10 @@ const SupportedMods = {
     "Ores and Metals": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ores-and-metals",
     Modrinth: null
+    },
+    "Overworld Quartz (FORGE)": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/overworld-quartz-forge",
+        Modrinth: "https://modrinth.com/mod/overworld-quartz"
     },
     "Orevolution": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/orevolution",
@@ -1163,6 +1179,10 @@ const SupportedMods = {
     "The Indigo": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-indigo",
     Modrinth: null
+    },
+    "The Midnight Lurker": {
+        CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-midnight-lurker",
+        Modrinth: "https://modrinth.com/mod/the-midnight-lurker"
     },
     "The Mi Alliance: Invasion!": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-mi-alliance-invasion",
