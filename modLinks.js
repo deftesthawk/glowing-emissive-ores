@@ -404,6 +404,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/dungeons-and-combat",
     Modrinth: null
     },
+    "Druidcraft Regrown": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/druidcraft-regrown",
+    Modrinth: null
+    },
     "Easy Steel & More": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/easy-steel-forge",
     Modrinth: null
@@ -632,6 +636,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/iter-rpg",
     Modrinth: null
     },
+    "Jaden's Nether Expansion": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion",
+    Modrinth: "https://modrinth.com/mod/jadens-nether-expansion"
+    },
     "Kimetsu no Yaiba (Demon Slayer)": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/demonslayer",
     Modrinth: "https://modrinth.com/mod/orca-kimetsu-no-yaiba"
@@ -819,6 +827,10 @@ const SupportedMods = {
     "Nature's Spirit": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/natures-spirit",
     Modrinth: "https://modrinth.com/mod/natures-spirit"
+    },
+    "Nether Descent": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nether-descent",
+    Modrinth: "https://modrinth.com/mod/nether-descent"
     },
     "Nether Ores Plus+": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/nether-ores-plus",
@@ -1112,6 +1124,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/stellaris",
     Modrinth: "https://modrinth.com/mod/stellaris"
     },
+    "Subterranean Expansion | Cave Update": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/subterranean-expansion",
+    Modrinth: "https://modrinth.com/mod/subterranean-expansion"
+    },
     "Subterranean Wilderness Revival": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/subterranean-wilderness-revival",
     Modrinth: "https://modrinth.com/mod/subterranean-wilderness-revival"
@@ -1180,6 +1196,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-indigo",
     Modrinth: null
     },
+    "The Lead Age": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-lead-age",
+    Modrinth: "https://modrinth.com/mod/the-lead-age"
+    },
     "The Midnight Lurker": {
         CurseForge: "https://www.curseforge.com/minecraft/mc-mods/the-midnight-lurker",
         Modrinth: "https://modrinth.com/mod/the-midnight-lurker"
@@ -1235,6 +1255,10 @@ const SupportedMods = {
     "Tinkers' Innovation": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tinkers-innovation",
     Modrinth: "https://modrinth.com/mod/tinkersinnovation"
+    },
+    "Tohiro Ore´s [Reimagined]": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/tohiro-ores",
+    Modrinth: null
     },
     "Treasure2": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/treasure2",
