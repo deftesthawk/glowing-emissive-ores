@@ -37,7 +37,7 @@ const resultConditions = [
   {
     id: 'continuityNeoForgeResult',
     loader: 'neoforge',
-    versions: ['26.1.2', '1.21.1', '1.21']
+    versions: ['26.2', '26.1.2', '1.21.1', '1.21']
   },
   {
     id: 'moreMCMetaFabricResult',
