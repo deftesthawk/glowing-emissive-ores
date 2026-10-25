@@ -296,6 +296,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-fabric",
     Modrinth: "https://modrinth.com/mod/create-fabric"
     },
+    "Create Nuclear": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/createnuclear",
+    Modrinth: "https://modrinth.com/mod/createnuclear"
+    },
     "Create: Crafts & (More) Additions": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-more-additions",
     Modrinth: "https://modrinth.com/mod/create-more-additions"
@@ -327,10 +331,6 @@ const SupportedMods = {
     "Create: Northstar - Redux": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/northstar-redux",
     Modrinth: "https://modrinth.com/mod/northstar-redux"
-    },
-    "Create: Nuclear": {
-    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/createnuclear",
-    Modrinth: "https://modrinth.com/mod/createnuclear"
     },
     "Create: Propulsion Simulated": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/create-propulsion-simulated",
@@ -900,6 +900,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/oritech",
     Modrinth: "https://modrinth.com/mod/oritech"
     },
+    "Pale Arsenal": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/pale-arsenal",
+    Modrinth: "https://modrinth.com/mod/pale-arsenal"
+    },
     "Paradise Lost": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/paradise-lost",
     Modrinth: "https://modrinth.com/mod/paradise-lost"
@@ -907,6 +911,10 @@ const SupportedMods = {
     "PFW: Aesthetic Gems": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/pfw-aesthetic-gems",
     Modrinth: "https://modrinth.com/mod/pfw-aethetic-gems"
+    },
+    "Pastel": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/pastel",
+    Modrinth: "https://modrinth.com/mod/pastel"
     },
     "Phayriosis Parasite Infection": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/phayriosis-parasite-infection",
@@ -1040,6 +1048,10 @@ const SupportedMods = {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/silent-gear",
     Modrinth: "https://modrinth.com/mod/silent-gear"
     },
+    "Sculk Horde": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/sculk-horde",
+    Modrinth: "https://modrinth.com/mod/sculk-horde"
+    },
     "Silent Gear Compat": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/silentgear-compat",
     Modrinth: null
@@ -1099,6 +1111,10 @@ const SupportedMods = {
     "Spelunkery": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunkery",
     Modrinth: "https://modrinth.com/mod/spelunkery"
+    },
+    "Spectrum": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spectrum",
+    Modrinth: "https://modrinth.com/mod/spectrum"
     },
     "Spelunking Master": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/spelunking-master",
@@ -1267,6 +1283,10 @@ const SupportedMods = {
     "Undead Unleashed!": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/undead-unleashed",
     Modrinth: "https://modrinth.com/mod/undead-unleashed"
+    },
+    "Ultimate Fun": {
+    CurseForge: "https://www.curseforge.com/minecraft/mc-mods/ultimate-fun",
+    Modrinth: "https://modrinth.com/mod/ultimate-fun"
     },
     "Unearthed": {
     CurseForge: "https://www.curseforge.com/minecraft/mc-mods/unearthed",
